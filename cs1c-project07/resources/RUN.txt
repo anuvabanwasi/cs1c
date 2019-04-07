@@ -1,0 +1,289 @@
+-----------------------------------------------------
+################# TEST CASE 1 #######################
+
+Test file: resources/findIDs.txt & resources/findGenres.txt 
+
+
+NOTES: Testing implementation of find() function to return an object associated with a given key input.
+-----------------------------------------------------
+################# OUTPUT TEST CASE 1 ################
+-----------------------------------------------------
+Total number of songs read 59600 
+Test file for id table: resources/findIDs.txt 
+
+Finding song id: 2
+Song id 2 found in tableOfSongIDs. 
+
+Finding song id: 3
+Song id 3 found in tableOfSongIDs. 
+
+Finding song id: 4
+Song id 4 found in tableOfSongIDs. 
+
+Finding song id: 99
+Song id 99 found in tableOfSongIDs. 
+
+Finding song id: 99999
+Song id 99999 NOT found in tableOfSongIDs.
+Done with testing table of ids.
+
+Test file for genre table: resources/findGenres.txt 
+
+Number of store songs in each genre:
+classic pop and rock 	  23895 
+                punk 	   3200 
+                folk 	  13192 
+                 pop 	   1617 
+dance and electronica 	   4935 
+               metal 	   2103 
+      jazz and blues 	   4334 
+           classical 	   1874 
+             hip-hop 	    434 
+     soul and reggae 	   4016 
+
+Finding genre: pop
+Genre "pop" found in tableOfGenres. 
+
+Finding genre: classic pop and rock
+Genre "classic pop and rock" found in tableOfGenres. 
+
+Finding genre: FOOTHILL
+Genre "FOOTHILL" NOT found in tableOfGenres.
+Done with testing table of genres.
+
+
+Done with MyTunes.
+-----------------------------------------------------
+################# TEST CASE 2 #######################
+
+Test file: resources/findIDs2.txt & resources/findGenres.txt 
+
+
+NOTES: Testing implementation of find() by Id function with invalid input
+-----------------------------------------------------
+################# OUTPUT TEST CASE 2 ################
+-----------------------------------------------------
+Total number of songs read 59600 
+Test file for id table: resources/findIDs2.txt 
+
+Finding song id: 39837
+Song id 39837 found in tableOfSongIDs. 
+
+Finding song id: 12064
+Song id 12064 found in tableOfSongIDs. 
+
+Finding song id: 24659
+Song id 24659 found in tableOfSongIDs. 
+
+Finding song id: 88
+Song id 88 found in tableOfSongIDs. 
+
+Finding song id: 2755
+Song id 2755 found in tableOfSongIDs. 
+
+Finding song id: 4568
+Song id 4568 found in tableOfSongIDs. 
+
+Finding song id: -1
+Song id -1 NOT found in tableOfSongIDs.
+
+Warning: Input ""abc"" is not a valid number. Skipping.
+
+Finding song id: 21
+Song id 21 found in tableOfSongIDs. 
+Done with testing table of ids.
+
+Test file for genre table: resources/findGenres.txt 
+
+Number of store songs in each genre:
+classic pop and rock 	  23895 
+                punk 	   3200 
+                folk 	  13192 
+                 pop 	   1617 
+dance and electronica 	   4935 
+               metal 	   2103 
+      jazz and blues 	   4334 
+           classical 	   1874 
+             hip-hop 	    434 
+     soul and reggae 	   4016 
+
+Finding genre: pop
+Genre "pop" found in tableOfGenres. 
+
+Finding genre: classic pop and rock
+Genre "classic pop and rock" found in tableOfGenres. 
+
+Finding genre: FOOTHILL
+Genre "FOOTHILL" NOT found in tableOfGenres.
+Done with testing table of genres.
+
+
+Done with MyTunes.
+-----------------------------------------------------
+################# TEST CASE 3 #######################
+
+Test file: resources/findGenres2.txt and resources/findIDs2.txt
+
+
+NOTES: Testing implementation of find() by Id function with invalid input for genres
+-----------------------------------------------------
+################# OUTPUT TEST CASE 3 ################
+-----------------------------------------------------
+Total number of songs read 59600 
+Test file for id table: resources/findIDs2.txt 
+
+Finding song id: 39837
+Song id 39837 found in tableOfSongIDs. 
+
+Finding song id: 12064
+Song id 12064 found in tableOfSongIDs. 
+
+Finding song id: 24659
+Song id 24659 found in tableOfSongIDs. 
+
+Finding song id: 88
+Song id 88 found in tableOfSongIDs. 
+
+Finding song id: 2755
+Song id 2755 found in tableOfSongIDs. 
+
+Finding song id: 4568
+Song id 4568 found in tableOfSongIDs. 
+
+Finding song id: -1
+Song id -1 NOT found in tableOfSongIDs.
+
+Warning: Input ""abc"" is not a valid number. Skipping.
+
+Finding song id: 21
+Song id 21 found in tableOfSongIDs. 
+Done with testing table of ids.
+
+Test file for genre table: resources/findGenres2.txt 
+
+Number of store songs in each genre:
+classic pop and rock 	  23895 
+                punk 	   3200 
+                folk 	  13192 
+                 pop 	   1617 
+dance and electronica 	   4935 
+               metal 	   2103 
+      jazz and blues 	   4334 
+           classical 	   1874 
+             hip-hop 	    434 
+     soul and reggae 	   4016 
+
+Finding genre: folk
+Genre "folk" found in tableOfGenres. 
+
+Finding genre: soul and reggae
+Genre "soul and reggae" found in tableOfGenres. 
+
+Finding genre: punk
+Genre "punk" found in tableOfGenres. 
+
+Finding genre: dance and electronica
+Genre "dance and electronica" found in tableOfGenres. 
+
+Finding genre: speedo
+Genre "speedo" NOT found in tableOfGenres.
+
+Finding genre: 12
+Genre "12" NOT found in tableOfGenres.
+
+Finding genre: "pop"
+Genre ""pop"" NOT found in tableOfGenres.
+
+Finding genre: dance and electronic
+Genre "dance and electronic" NOT found in tableOfGenres.
+Done with testing table of genres.
+
+
+Done with MyTunes.
+-----------------------------------------------------
+################# TEST CASE 4 #######################
+
+Test file: resources/findGenresAll.txt and resources/findIDs2.txt
+
+
+NOTES: Testing implementation of find() by Id function with invalid input for genres
+-----------------------------------------------------
+################# OUTPUT TEST CASE 4 ################
+-----------------------------------------------------
+Total number of songs read 59600 
+Test file for id table: resources/findIDs2.txt 
+
+Finding song id: 39837
+Song id 39837 found in tableOfSongIDs. 
+
+Finding song id: 12064
+Song id 12064 found in tableOfSongIDs. 
+
+Finding song id: 24659
+Song id 24659 found in tableOfSongIDs. 
+
+Finding song id: 88
+Song id 88 found in tableOfSongIDs. 
+
+Finding song id: 2755
+Song id 2755 found in tableOfSongIDs. 
+
+Finding song id: 4568
+Song id 4568 found in tableOfSongIDs. 
+
+Finding song id: -1
+Song id -1 NOT found in tableOfSongIDs.
+
+Warning: Input ""abc"" is not a valid number. Skipping.
+
+Finding song id: 21
+Song id 21 found in tableOfSongIDs. 
+Done with testing table of ids.
+
+Test file for genre table: resources/findGenresAll.txt 
+
+Number of store songs in each genre:
+classic pop and rock 	  23895 
+                punk 	   3200 
+                folk 	  13192 
+                 pop 	   1617 
+dance and electronica 	   4935 
+               metal 	   2103 
+      jazz and blues 	   4334 
+           classical 	   1874 
+             hip-hop 	    434 
+     soul and reggae 	   4016 
+
+Finding genre: punk
+Genre "punk" found in tableOfGenres. 
+
+Finding genre: pop
+Genre "pop" found in tableOfGenres. 
+
+Finding genre: folk
+Genre "folk" found in tableOfGenres. 
+
+Finding genre: soul and reggae
+Genre "soul and reggae" found in tableOfGenres. 
+
+Finding genre: jazz and blues
+Genre "jazz and blues" found in tableOfGenres. 
+
+Finding genre: dance and electronica
+Genre "dance and electronica" found in tableOfGenres. 
+
+Finding genre: metal
+Genre "metal" found in tableOfGenres. 
+
+Finding genre: classic pop and rock
+Genre "classic pop and rock" found in tableOfGenres. 
+
+Finding genre: hip-hop 
+Genre "hip-hop " NOT found in tableOfGenres.
+
+Finding genre: classical
+Genre "classical" found in tableOfGenres. 
+Done with testing table of genres.
+
+
+Done with MyTunes.

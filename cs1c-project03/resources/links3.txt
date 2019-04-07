@@ -1,0 +1,20 @@
+forward
+back
+link google.com
+contains com
+forward
+back
+link news.google.com
+back
+forward
+back
+link cnn.com
+back
+link nypost.com
+back
+link msnbc.com
+link nbc.com
+contains x
+back
+back
+link fox.com

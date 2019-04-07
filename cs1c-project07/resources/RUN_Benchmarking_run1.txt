@@ -1,0 +1,137 @@
+-----------------------------------------------------
+################# TEST CASE 1 #######################
+
+Test file: resources/findIDs_10000.txt
+
+
+NOTES: Testing benchmarking of quadratic probing vs sequential array list search
+N = 10000, search file findIDs_10000 has 1000 entries
+-----------------------------------------------------
+################# OUTPUT TEST CASE 1 ################
+-----------------------------------------------------
+Total number of songs read 59600 
+
+Testing with size : 10000
+
+Benchmarking IDs hash table for datafile of size 10000 and testfile resources/findIDs_10000.txt of size 1000
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 1 ms : 145043 ns
+Done with testing table of ids.
+
+Benchmarking sequential array list for datafile of size 10000 and testfile resources/findIDs_10000.txt of size 1000
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 59 ms : 111950 ns
+Done with testing list of songs.
+
+
+Done with MyTunes.
+-----------------------------------------------------
+################# TEST CASE 2 #######################
+
+Test file: resources/findIDs_20000.txt
+
+
+NOTES: Testing benchmarking of quadratic probing vs sequential array list search
+N = 20000, search file findIDs_20000 has 2000 entries
+-----------------------------------------------------
+################# OUTPUT TEST CASE 2 ################
+-----------------------------------------------------
+Total number of songs read 59600 
+
+Testing with size : 20000
+
+Benchmarking IDs hash table for datafile of size 20000 and testfile resources/findIDs_20000.txt of size 2000
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 2 ms : 366382 ns
+Done with testing table of ids.
+
+Benchmarking sequential array list for datafile of size 20000 and testfile resources/findIDs_20000.txt of size 2000
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 156 ms : 230019 ns
+Done with testing list of songs.
+
+
+Done with MyTunes.
+
+-----------------------------------------------------
+################# TEST CASE 3 #######################
+
+Test file: resources/findIDs_30000.txt
+
+
+NOTES: Testing benchmarking of quadratic probing vs sequential array list search
+N = 30000, search file findIDs_30000 has 3000 entries
+-----------------------------------------------------
+################# OUTPUT TEST CASE 3 ################
+-----------------------------------------------------
+Total number of songs read 59600 
+
+Testing with size : 30000
+
+Benchmarking IDs hash table for datafile of size 30000 and testfile resources/findIDs_30000.txt of size 3000
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 3 ms : 452465 ns
+Done with testing table of ids.
+
+Benchmarking sequential array list for datafile of size 30000 and testfile resources/findIDs_30000.txt of size 3000
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 371 ms : 746354 ns
+Done with testing list of songs.
+
+
+Done with MyTunes.
+-----------------------------------------------------
+################# TEST CASE 4 #######################
+
+Test file: resources/findIDs_40000.txt
+
+
+NOTES: Testing benchmarking of quadratic probing vs sequential array list search
+N = 40000, search file findIDs_40000 has 4000 entries
+-----------------------------------------------------
+################# OUTPUT TEST CASE 4 ################
+-----------------------------------------------------
+Total number of songs read 59600 
+
+Testing with size : 40000
+
+Benchmarking IDs hash table for datafile of size 40000 and testfile resources/findIDs_40000.txt of size 4000
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 3 ms : 889378 ns
+Done with testing table of ids.
+
+Benchmarking sequential array list for datafile of size 40000 and testfile resources/findIDs_40000.txt of size 4000
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 679 ms : 937501 ns
+Done with testing list of songs.
+
+
+Done with MyTunes.
+-----------------------------------------------------
+################# TEST CASE 5 #######################
+
+Test file: resources/findIDs_50000.txt
+
+
+NOTES: Testing benchmarking of quadratic probing vs sequential array list search
+N = 50000, search file findIDs_50000 has 5000 entries
+-----------------------------------------------------
+################# OUTPUT TEST CASE 5 ################
+-----------------------------------------------------
+Total number of songs read 59600 
+
+Testing with size : 50000
+
+Benchmarking IDs hash table for datafile of size 50000 and testfile resources/findIDs_50000.txt of size 5000
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 4 ms : 166955 ns
+Done with testing table of ids.
+
+Benchmarking sequential array list for datafile of size 50000 and testfile resources/findIDs_50000.txt of size 5000
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 1 sec : 205 ms : 710083 ns
+Done with testing list of songs.
+
+
+Done with MyTunes.
+

@@ -1,0 +1,8 @@
+add soup
+add tangerine
+add milk
+add turnip
+add sugar
+buy sugar
+buy tangerine
+buy turnip

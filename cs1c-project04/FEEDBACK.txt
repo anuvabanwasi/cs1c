@@ -1,0 +1,16 @@
+FEEDBACK:
+
+Nice clean implementation of your Queue class, especially en/dequeue() methods.
+
+
+Good clean implementation of the QueueIterator class.
+
+
+Very good testing of your implementation.
+
+
+Very use of exception handling when dequeuing from an empty Queue.
+   Remember to add the exception to the method signature.
+
+-Bita.
+

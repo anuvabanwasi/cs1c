@@ -1,0 +1,11 @@
+link www.google.com
+back
+link www.technologyreview.com
+back
+link www.techtimes.com
+back
+link www.java.com/en/java_in_action/alice.jsp
+link www.ted.com
+link www.ted.com
+back
+forward

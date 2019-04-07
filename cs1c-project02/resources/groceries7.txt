@@ -1,0 +1,20 @@
+bananas,1.50
+beans,0.80
+beef,21.00
+chicken,15
+fish,23
+juice,14
+milk,8
+ramen,4
+chips,10
+salsa,5
+egg, 4
+bread,5
+butter,8
+cheese,15
+pasta,12.50
+pasta sauce,3.5
+tacos,4
+macncheese,3
+cookies,2.75
+fish,30.5

@@ -1,0 +1,14 @@
+add soup
+add milk
+add star
+add tangerine
+add apple
+add pasta
+add tangerine
+add turnip
+add bread
+add avocado
+buy apple
+buy star
+buy milk
+buy avocado

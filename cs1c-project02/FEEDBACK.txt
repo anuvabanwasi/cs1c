@@ -1,0 +1,18 @@
+FEEDBACK:
+
+Excellent implementation of the findSubset() method.
+
+
+Very good stress testing of your code.
+
+
++0.5 Excellent documentation of your source code.
+
+
+Extra Credit Opportunity:
++1 implementation of findSubset() for SongEntry type.
+   How does your implementation improve about the Part 1? The challenge for
+   this part was to experiment with being able to handle larger sets.
+
+-Bita.
+

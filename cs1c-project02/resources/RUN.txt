@@ -1,0 +1,232 @@
+-----------------------------------------------------
+################### PART 1 ##########################
+-----------------------------------------------------
+################# TEST CASE 1 #######################
+
+Test file: resources/groceries.txt 
+budget: 200
+
+
+NOTES: Testing target budget > sum of all elements.
+-----------------------------------------------------
+################# OUTPUT TEST CASE 1 ################
+-----------------------------------------------------
+The list of groceries has 8 items. 
+Groceries wanted:
+[2.5, 4.0, 11.5, 7.0, 15.0, 4.0, 6.0, 8.0]
+
+Enter your budget:
+200
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 2 ms : 151007 ns
+Purchased grocery prices are:
+[2.5, 4.0, 11.5, 7.0, 15.0, 4.0, 6.0, 8.0]
+Done with ShoppingBag.
+-----------------------------------------------------
+
+-----------------------------------------------------
+################# TEST CASE 2 #######################
+Test file: resources/groceries.txt 
+budget: 10
+
+
+NOTES: Testing set of elements found with sums to exactly to target budget.
+-----------------------------------------------------
+################# OUTPUT TEST CASE 2 ################
+-----------------------------------------------------
+The list of groceries has 8 items. 
+Groceries wanted:
+[2.5, 4.0, 11.5, 7.0, 15.0, 4.0, 6.0, 8.0]
+
+Enter your budget:
+10
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 2 ms : 655414 ns
+Purchased grocery prices are:
+[4.0, 6.0]
+Done with ShoppingBag.
+-----------------------------------------------------
+
+-----------------------------------------------------
+################# TEST CASE 3 #######################
+Test file: resources/groceries.txt 
+budget: 9
+
+
+NOTES: Testing target budget returning closest match.
+-----------------------------------------------------
+################# OUTPUT TEST CASE 3 ################
+-----------------------------------------------------
+The list of groceries has 8 items. 
+Groceries wanted:
+[2.5, 4.0, 11.5, 7.0, 15.0, 4.0, 6.0, 8.0]
+
+Enter your budget:
+9
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 2 ms : 135959 ns
+Purchased grocery prices are:
+[2.5, 6.0]
+Done with ShoppingBag.
+-----------------------------------------------------
+
+-----------------------------------------------------
+################# TEST CASE 4 #######################
+Test file: resources/groceries.txt 
+budget: 2
+
+
+NOTES: Testing target budget < cheapest item.
+-----------------------------------------------------
+################# OUTPUT TEST CASE 4 ################
+-----------------------------------------------------
+The list of groceries has 8 items. 
+Groceries wanted:
+[2.5, 4.0, 11.5, 7.0, 15.0, 4.0, 6.0, 8.0]
+
+Enter your budget:
+2
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 0 ms : 739561 ns
+Purchased grocery prices are:
+[]
+Done with ShoppingBag.
+-----------------------------------------------------
+
+-----------------------------------------------------
+################# TEST CASE 5 #######################
+Test file: resources/groceries7.txt 
+budget: 120
+
+
+NOTES: Testing set of elements found with sums to exactly to target budget.
+-----------------------------------------------------
+################# OUTPUT TEST CASE 5 ################
+-----------------------------------------------------
+The list of groceries has 20 items. 
+Groceries wanted:
+[1.5, 0.8, 21.0, 15.0, 23.0, 14.0, 8.0, 4.0, 10.0, 5.0, 4.0, 5.0, 8.0, 15.0, 12.5, 3.5, 4.0, 3.0, 2.75, 30.5]
+
+Enter your budget:
+120
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 10 ms : 692494 ns
+Purchased grocery prices are:
+[21.0, 15.0, 23.0, 14.0, 8.0, 4.0, 10.0, 5.0, 5.0, 15.0]
+Done with ShoppingBag.
+-----------------------------------------------------
+################### PART 2 ##########################
+-----------------------------------------------------
+################# TEST CASE 1 #######################
+Test file: resources/music_genre_subset.json 
+duration: 81.5
+
+
+NOTES: Testing set of songs found which sums to exactly the target duration.
+-----------------------------------------------------
+################# OUTPUT TEST CASE 1 ################
+-----------------------------------------------------
+Welcome! We have over 59600 in FoothillTunes store! 
+
+Enter the duration of your play list:
+81.5
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 19 ms : 143187 ns
+Songs in play list:
+[Mes Dames Sarat, 0:4:7, Blue Oyster Cult, classic pop and rock
+, Screams, 0:3:10, Blue Oyster Cult, classic pop and rock
+, Dance The Night Away, 0:2:39, Blue Oyster Cult, classic pop and rock
+, Debbie Denise, 0:4:11, Blue Oyster Cult, classic pop and rock
+, (Don't Fear) The Reaper, 0:5:8, Blue Oyster Cult, classic pop and rock
+, Morning Final, 0:4:15, Blue Oyster Cult, classic pop and rock
+, The Revenge Of Vera Gemini, 0:3:51, Blue Oyster Cult, classic pop and rock
+, True Confessions, 0:2:58, Blue Oyster Cult, classic pop and rock
+, Out Of Stadion - Original, 0:1:22, Blue Oyster Cult, classic pop and rock
+, Ginger Snaps - Original, 0:1:35, Blue Oyster Cult, classic pop and rock
+, Demon's Kiss - Original, 0:3:53, Blue Oyster Cult, classic pop and rock
+, Remodeling - Original, 0:2:14, Blue Oyster Cult, classic pop and rock
+, Spray That Scumbag - Original, 0:1:44, Blue Oyster Cult, classic pop and rock
+, Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock
+, Screams, 0:3:10, Blue Oyster Cult, classic pop and rock
+, Redeemed, 0:3:52, Blue Oyster Cult, classic pop and rock
+, Workshop Of The Telescopes, 0:4:2, Blue Oyster Cult, classic pop and rock
+, What Is Quicksand, 0:3:41, Blue Oyster Cult, classic pop and rock
+, Dominenance And Submission, 0:5:50, Blue Oyster Cult, classic pop and rock
+, Godzilla, 0:7:50, Blue Oyster Cult, classic pop and rock
+, E.T.I. (Extra Terrestrial Intelligence), 0:3:47, Blue Oyster Cult, classic pop and rock
+, Don't Fear The Reaper, 0:6:5, Blue Oyster Cult, classic pop and rock
+, Ox Blood (Album Version), 0:1:15, Meic Stevens, classic pop and rock
+, Oriental Boulevard, 0:0:24, Lady Bug Transistor, classic pop and rock
+, Deja Vu, 0:0:2, Crosby_ Stills_ Nash and Young, classic pop and rock
+]
+Done with FoothillTunesStore.
+-----------------------------------------------------
+
+-----------------------------------------------------
+################# TEST CASE 2 #######################
+Test file: resources/music_genre_subset.json 
+duration: 67.8
+
+
+NOTES: Testing target duration returning closest match.
+-----------------------------------------------------
+################# OUTPUT TEST CASE 2 ################
+-----------------------------------------------------
+Welcome! We have over 59600 in FoothillTunes store! 
+
+Enter the duration of your play list:
+67.8
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 26 ms : 259286 ns
+Songs in play list:
+[Mes Dames Sarat, 0:4:7, Blue Oyster Cult, classic pop and rock
+, Screams, 0:3:10, Blue Oyster Cult, classic pop and rock
+, Dance The Night Away, 0:2:39, Blue Oyster Cult, classic pop and rock
+, Debbie Denise, 0:4:11, Blue Oyster Cult, classic pop and rock
+, (Don't Fear) The Reaper, 0:5:8, Blue Oyster Cult, classic pop and rock
+, Morning Final, 0:4:15, Blue Oyster Cult, classic pop and rock
+, The Revenge Of Vera Gemini, 0:3:51, Blue Oyster Cult, classic pop and rock
+, True Confessions, 0:2:58, Blue Oyster Cult, classic pop and rock
+, Out Of Stadion - Original, 0:1:22, Blue Oyster Cult, classic pop and rock
+, Ginger Snaps - Original, 0:1:35, Blue Oyster Cult, classic pop and rock
+, Demon's Kiss - Original, 0:3:53, Blue Oyster Cult, classic pop and rock
+, Remodeling - Original, 0:2:14, Blue Oyster Cult, classic pop and rock
+, Spray That Scumbag - Original, 0:1:44, Blue Oyster Cult, classic pop and rock
+, Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock
+, Screams, 0:3:10, Blue Oyster Cult, classic pop and rock
+, Redeemed, 0:3:52, Blue Oyster Cult, classic pop and rock
+, Workshop Of The Telescopes, 0:4:2, Blue Oyster Cult, classic pop and rock
+, What Is Quicksand, 0:3:41, Blue Oyster Cult, classic pop and rock
+, Dominenance And Submission, 0:5:50, Blue Oyster Cult, classic pop and rock
+, E.T.I. (Extra Terrestrial Intelligence), 0:3:47, Blue Oyster Cult, classic pop and rock
+, Ox Blood (Album Version), 0:1:15, Meic Stevens, classic pop and rock
+, Oriental Boulevard, 0:0:24, Lady Bug Transistor, classic pop and rock
+, Tuning a Stray, 0:0:8, Deerhoof, classic pop and rock
+, Deja Vu, 0:0:2, Crosby_ Stills_ Nash and Young, classic pop and rock
+, Carry On, 0:0:1, Crosby_ Stills_ Nash and Young, classic pop and rock
+, East Side Drop, 0:0:3, Rod Lee, classic pop and rock
+]
+Done with FoothillTunesStore.
+-----------------------------------------------------
+
+-----------------------------------------------------
+################# TEST CASE 3 #######################
+Test file: resources/music_genre_subset.json 
+duration: 0
+
+
+NOTES: Testing target duration = 0
+-----------------------------------------------------
+################# OUTPUT TEST CASE 3 ################
+-----------------------------------------------------
+Welcome! We have over 59600 in FoothillTunes store! 
+
+Enter the duration of your play list:
+0
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 7 ms : 189418 ns
+Songs in play list:
+[]
+Done with FoothillTunesStore.
+
+-----------------------------------------------------

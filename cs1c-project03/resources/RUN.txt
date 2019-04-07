@@ -1,0 +1,1051 @@
+-----------------------------------------------------
+################# TEST CASE 1 #######################
+
+Test file: resources/links.txt 
+
+
+NOTES: Testing adding and removing items from back 
+       and forward stacks.
+-----------------------------------------------------
+################# OUTPUT TEST CASE 1 ################
+-----------------------------------------------------
+
+
+At line #1: link www.google.com
+Current Link: www.google.com
+
+Back with 0 links 
+[]
+
+
+Forward with 0 links 
+[]
+
+
+
+At line #2: link news.google.com
+Current Link: news.google.com
+
+Back with 1 links 
+[www.google.com]
+
+
+Forward with 0 links 
+[]
+
+
+
+At line #3: link www.educationnews.org
+Current Link: www.educationnews.org
+
+Back with 2 links 
+[news.google.com , www.google.com]
+
+
+Forward with 0 links 
+[]
+
+
+
+At line #4: link www.nytimes.com
+Current Link: www.nytimes.com
+
+Back with 3 links 
+[www.educationnews.org , news.google.com , www.google.com]
+
+
+Forward with 0 links 
+[]
+
+
+
+At line #5: link www.nytimes.com/pages/education
+Current Link: www.nytimes.com/pages/education
+
+Back with 4 links 
+[www.nytimes.com , www.educationnews.org , news.google.com , www.google.com]
+
+
+Forward with 0 links 
+[]
+
+
+
+At line #6: back
+Current Link: www.nytimes.com
+
+Back with 3 links 
+[www.educationnews.org , news.google.com , www.google.com]
+
+
+Forward with 1 links 
+[www.nytimes.com/pages/education]
+
+
+
+At line #7: back
+Current Link: www.educationnews.org
+
+Back with 2 links 
+[news.google.com , www.google.com]
+
+
+Forward with 2 links 
+[www.nytimes.com , www.nytimes.com/pages/education]
+
+
+
+At line #8: back
+Current Link: news.google.com
+
+Back with 1 links 
+[www.google.com]
+
+
+Forward with 3 links 
+[www.educationnews.org , www.nytimes.com , www.nytimes.com/pages/education]
+
+
+
+At line #9: link www.technologyreview.com
+Current Link: www.technologyreview.com
+
+Back with 2 links 
+[news.google.com , www.google.com]
+
+
+Forward with 0 links 
+[]
+
+
+
+At line #10: back
+Current Link: news.google.com
+
+Back with 1 links 
+[www.google.com]
+
+
+Forward with 1 links 
+[www.technologyreview.com]
+
+
+
+At line #11: link www.techtimes.com
+Current Link: www.techtimes.com
+
+Back with 2 links 
+[news.google.com , www.google.com]
+
+
+Forward with 0 links 
+[]
+
+
+
+At line #12: link www.techtimes.com/biztech
+Current Link: www.techtimes.com/biztech
+
+Back with 3 links 
+[www.techtimes.com , news.google.com , www.google.com]
+
+
+Forward with 0 links 
+[]
+
+
+
+At line #13: link www.techtimes.com/articles/27723/20150122/tips-for-learning-java.htm
+Current Link: www.techtimes.com/articles/27723/20150122/tips-for-learning-java.htm
+
+Back with 4 links 
+[www.techtimes.com/biztech , www.techtimes.com , news.google.com , www.google.com]
+
+
+Forward with 0 links 
+[]
+
+
+
+At line #14: back
+Current Link: www.techtimes.com/biztech
+
+Back with 3 links 
+[www.techtimes.com , news.google.com , www.google.com]
+
+
+Forward with 1 links 
+[www.techtimes.com/articles/27723/20150122/tips-for-learning-java.htm]
+
+
+
+At line #15: back
+Current Link: www.techtimes.com
+
+Back with 2 links 
+[news.google.com , www.google.com]
+
+
+Forward with 2 links 
+[www.techtimes.com/biztech , www.techtimes.com/articles/27723/20150122/tips-for-learning-java.htm]
+
+
+
+At line #16: forward
+Current Link: www.techtimes.com/biztech
+
+Back with 3 links 
+[www.techtimes.com , news.google.com , www.google.com]
+
+
+Forward with 1 links 
+[www.techtimes.com/articles/27723/20150122/tips-for-learning-java.htm]
+
+
+
+At line #17: forward
+Current Link: www.techtimes.com/articles/27723/20150122/tips-for-learning-java.htm
+
+Back with 4 links 
+[www.techtimes.com/biztech , www.techtimes.com , news.google.com , www.google.com]
+
+
+Forward with 0 links 
+[]
+
+
+
+At line #18: link www.java.com/en/java_in_action/alice.jsp
+Current Link: www.java.com/en/java_in_action/alice.jsp
+
+Back with 5 links 
+[www.techtimes.com/articles/27723/20150122/tips-for-learning-java.htm , www.techtimes.com/biztech , www.techtimes.com , news.google.com , www.google.com]
+
+
+Forward with 0 links 
+[]
+
+
+
+At line #19: contains news.foogle.com
+Current Link: www.java.com/en/java_in_action/alice.jsp
+
+Back with 5 links 
+[www.techtimes.com/articles/27723/20150122/tips-for-learning-java.htm , www.techtimes.com/biztech , www.techtimes.com , news.google.com , www.google.com]
+
+
+Forward with 0 links 
+[]
+
+
+Link news.foogle.com NOT found
+
+
+At line #20: contains www.nytimes.com
+Current Link: www.java.com/en/java_in_action/alice.jsp
+
+Back with 5 links 
+[www.techtimes.com/articles/27723/20150122/tips-for-learning-java.htm , www.techtimes.com/biztech , www.techtimes.com , news.google.com , www.google.com]
+
+
+Forward with 0 links 
+[]
+
+
+Link www.nytimes.com NOT found
+
+
+At line #21: link www.instructables.com
+Current Link: www.instructables.com
+
+Back with 6 links 
+[www.java.com/en/java_in_action/alice.jsp , www.techtimes.com/articles/27723/20150122/tips-for-learning-java.htm , www.techtimes.com/biztech , www.techtimes.com , news.google.com , www.google.com]
+
+
+Forward with 0 links 
+[]
+
+
+
+At line #22: link www.ign.com
+Current Link: www.ign.com
+
+Back with 7 links 
+[www.instructables.com , www.java.com/en/java_in_action/alice.jsp , www.techtimes.com/articles/27723/20150122/tips-for-learning-java.htm , www.techtimes.com/biztech , www.techtimes.com , news.google.com , www.google.com]
+
+
+Forward with 0 links 
+[]
+
+
+
+At line #23: link www.ted.com
+Current Link: www.ted.com
+
+Back with 8 links 
+[www.ign.com , www.instructables.com , www.java.com/en/java_in_action/alice.jsp , www.techtimes.com/articles/27723/20150122/tips-for-learning-java.htm , www.techtimes.com/biztech , www.techtimes.com , news.google.com , www.google.com]
+
+
+Forward with 0 links 
+[]
+
+
+
+At line #24: back
+Current Link: www.ign.com
+
+Back with 7 links 
+[www.instructables.com , www.java.com/en/java_in_action/alice.jsp , www.techtimes.com/articles/27723/20150122/tips-for-learning-java.htm , www.techtimes.com/biztech , www.techtimes.com , news.google.com , www.google.com]
+
+
+Forward with 1 links 
+[www.ted.com]
+
+
+
+At line #25: back
+Current Link: www.instructables.com
+
+Back with 6 links 
+[www.java.com/en/java_in_action/alice.jsp , www.techtimes.com/articles/27723/20150122/tips-for-learning-java.htm , www.techtimes.com/biztech , www.techtimes.com , news.google.com , www.google.com]
+
+
+Forward with 2 links 
+[www.ign.com , www.ted.com]
+
+
+
+At line #26: contains www.ted.com
+Current Link: www.instructables.com
+
+Back with 6 links 
+[www.java.com/en/java_in_action/alice.jsp , www.techtimes.com/articles/27723/20150122/tips-for-learning-java.htm , www.techtimes.com/biztech , www.techtimes.com , news.google.com , www.google.com]
+
+
+Forward with 2 links 
+[www.ign.com , www.ted.com]
+
+
+Link www.ted.com found
+
+
+At line #27: link www.foogle.com
+Current Link: www.foogle.com
+
+Back with 7 links 
+[www.instructables.com , www.java.com/en/java_in_action/alice.jsp , www.techtimes.com/articles/27723/20150122/tips-for-learning-java.htm , www.techtimes.com/biztech , www.techtimes.com , news.google.com , www.google.com]
+
+
+Forward with 0 links 
+[]
+
+
+
+At line #28: contains www.ted.com
+Current Link: www.foogle.com
+
+Back with 7 links 
+[www.instructables.com , www.java.com/en/java_in_action/alice.jsp , www.techtimes.com/articles/27723/20150122/tips-for-learning-java.htm , www.techtimes.com/biztech , www.techtimes.com , news.google.com , www.google.com]
+
+
+Forward with 0 links 
+[]
+
+
+Link www.ted.com NOT found
+
+
+
+At the end of test file resources/links.txt
+Current Link: www.foogle.com
+
+Back with 7 links 
+[www.instructables.com , www.java.com/en/java_in_action/alice.jsp , www.techtimes.com/articles/27723/20150122/tips-for-learning-java.htm , www.techtimes.com/biztech , www.techtimes.com , news.google.com , www.google.com]
+
+
+Forward with 0 links 
+[]
+
+
+Done with BrowserNavigation.
+
+-----------------------------------------------------
+
+-----------------------------------------------------
+################# TEST CASE 2 #######################
+
+Test file: resources/popEmptyStackOfLinks.txt 
+
+
+NOTES: Testing attempts to remove item from empty Back stack.
+-----------------------------------------------------
+################# OUTPUT TEST CASE 2 ################
+-----------------------------------------------------
+
+
+At line #1: link www.google.com
+Current Link: www.google.com
+
+Back with 0 links 
+[]
+
+
+Forward with 0 links 
+[]
+
+
+
+At line #2: link news.google.com
+Current Link: news.google.com
+
+Back with 1 links 
+[www.google.com]
+
+
+Forward with 0 links 
+[]
+
+
+
+At line #3: link www.educationnews.org
+Current Link: www.educationnews.org
+
+Back with 2 links 
+[news.google.com , www.google.com]
+
+
+Forward with 0 links 
+[]
+
+
+
+At line #4: link www.nytimes.com
+Current Link: www.nytimes.com
+
+Back with 3 links 
+[www.educationnews.org , news.google.com , www.google.com]
+
+
+Forward with 0 links 
+[]
+
+
+
+At line #5: link www.nytimes.com/pages/education
+Current Link: www.nytimes.com/pages/education
+
+Back with 4 links 
+[www.nytimes.com , www.educationnews.org , news.google.com , www.google.com]
+
+
+Forward with 0 links 
+[]
+
+
+
+At line #6: back
+Current Link: www.nytimes.com
+
+Back with 3 links 
+[www.educationnews.org , news.google.com , www.google.com]
+
+
+Forward with 1 links 
+[www.nytimes.com/pages/education]
+
+
+
+At line #7: back
+Current Link: www.educationnews.org
+
+Back with 2 links 
+[news.google.com , www.google.com]
+
+
+Forward with 2 links 
+[www.nytimes.com , www.nytimes.com/pages/education]
+
+
+
+At line #8: back
+Current Link: news.google.com
+
+Back with 1 links 
+[www.google.com]
+
+
+Forward with 3 links 
+[www.educationnews.org , www.nytimes.com , www.nytimes.com/pages/education]
+
+
+
+At line #9: back
+Current Link: www.google.com
+
+Back with 0 links 
+[]
+
+
+Forward with 4 links 
+[news.google.com , www.educationnews.org , www.nytimes.com , www.nytimes.com/pages/education]
+
+WARNING! No back links left....
+
+
+At line #10: back
+Current Link: www.google.com
+
+Back with 0 links 
+[]
+
+
+Forward with 4 links 
+[news.google.com , www.educationnews.org , www.nytimes.com , www.nytimes.com/pages/education]
+
+WARNING! No back links left....
+
+
+At line #11: back
+Current Link: www.google.com
+
+Back with 0 links 
+[]
+
+
+Forward with 4 links 
+[news.google.com , www.educationnews.org , www.nytimes.com , www.nytimes.com/pages/education]
+
+
+
+
+At the end of test file resources/popEmptyStackOfLinks.txt
+Current Link: www.google.com
+
+Back with 0 links 
+[]
+
+
+Forward with 4 links 
+[news.google.com , www.educationnews.org , www.nytimes.com , www.nytimes.com/pages/education]
+
+
+Done with BrowserNavigation.
+
+-----------------------------------------------------
+################# TEST CASE 3 #######################
+
+Test file: resources/links3.txt 
+
+
+NOTES: Testing adding and removing items from back 
+       and forward stacks.
+-----------------------------------------------------
+################# OUTPUT TEST CASE 3 ################
+-----------------------------------------------------
+WARNING! No forward links left....
+
+
+At line #1: forward
+Current Link: 
+
+Back with 0 links 
+[]
+
+
+Forward with 0 links 
+[]
+
+WARNING! No back links left....
+
+
+At line #2: back
+Current Link: 
+
+Back with 0 links 
+[]
+
+
+Forward with 0 links 
+[]
+
+
+
+At line #3: link google.com
+Current Link: google.com
+
+Back with 0 links 
+[]
+
+
+Forward with 0 links 
+[]
+
+
+
+At line #4: contains com
+Current Link: google.com
+
+Back with 0 links 
+[]
+
+
+Forward with 0 links 
+[]
+
+
+Link com found
+WARNING! No forward links left....
+
+
+At line #5: forward
+Current Link: google.com
+
+Back with 0 links 
+[]
+
+
+Forward with 0 links 
+[]
+
+WARNING! No back links left....
+
+
+At line #6: back
+Current Link: google.com
+
+Back with 0 links 
+[]
+
+
+Forward with 0 links 
+[]
+
+
+
+At line #7: link news.google.com
+Current Link: news.google.com
+
+Back with 1 links 
+[google.com]
+
+
+Forward with 0 links 
+[]
+
+
+
+At line #8: back
+Current Link: google.com
+
+Back with 0 links 
+[]
+
+
+Forward with 1 links 
+[news.google.com]
+
+
+
+At line #9: forward
+Current Link: news.google.com
+
+Back with 1 links 
+[google.com]
+
+
+Forward with 0 links 
+[]
+
+
+
+At line #10: back
+Current Link: google.com
+
+Back with 0 links 
+[]
+
+
+Forward with 1 links 
+[news.google.com]
+
+
+
+At line #11: link cnn.com
+Current Link: cnn.com
+
+Back with 1 links 
+[google.com]
+
+
+Forward with 0 links 
+[]
+
+
+
+At line #12: back
+Current Link: google.com
+
+Back with 0 links 
+[]
+
+
+Forward with 1 links 
+[cnn.com]
+
+
+
+At line #13: link nypost.com
+Current Link: nypost.com
+
+Back with 1 links 
+[google.com]
+
+
+Forward with 0 links 
+[]
+
+
+
+At line #14: back
+Current Link: google.com
+
+Back with 0 links 
+[]
+
+
+Forward with 1 links 
+[nypost.com]
+
+
+
+At line #15: link msnbc.com
+Current Link: msnbc.com
+
+Back with 1 links 
+[google.com]
+
+
+Forward with 0 links 
+[]
+
+
+
+At line #16: link nbc.com
+Current Link: nbc.com
+
+Back with 2 links 
+[msnbc.com , google.com]
+
+
+Forward with 0 links 
+[]
+
+
+
+At line #17: contains x
+Current Link: nbc.com
+
+Back with 2 links 
+[msnbc.com , google.com]
+
+
+Forward with 0 links 
+[]
+
+
+Link x NOT found
+
+
+At line #18: back
+Current Link: msnbc.com
+
+Back with 1 links 
+[google.com]
+
+
+Forward with 1 links 
+[nbc.com]
+
+
+
+At line #19: back
+Current Link: google.com
+
+Back with 0 links 
+[]
+
+
+Forward with 2 links 
+[msnbc.com , nbc.com]
+
+
+
+At line #20: link fox.com
+Current Link: fox.com
+
+Back with 1 links 
+[google.com]
+
+
+Forward with 0 links 
+[]
+
+
+
+
+At the end of test file resources/links3.txt
+Current Link: fox.com
+
+Back with 1 links 
+[google.com]
+
+
+Forward with 0 links 
+[]
+
+
+Done with BrowserNavigation.
+
+-----------------------------------------------------
+################# TEST CASE 4 #######################
+
+Test file: resources/links4.txt 
+
+
+NOTES: Testing adding and removing items from back 
+       and forward stacks.
+-----------------------------------------------------
+################# OUTPUT TEST CASE 4 ################
+-----------------------------------------------------
+At line #1: link www.google.com
+Current Link: www.google.com
+
+Back with 0 links 
+[]
+
+
+Forward with 0 links 
+[]
+
+
+
+At line #2: link www.foothill.edu
+Current Link: www.foothill.edu
+
+Back with 1 links 
+[www.google.com]
+
+
+Forward with 0 links 
+[]
+
+
+
+At line #3: link www.psme.foothill.edu
+Current Link: www.psme.foothill.edu
+
+Back with 2 links 
+[www.foothill.edu , www.google.com]
+
+
+Forward with 0 links 
+[]
+
+
+
+At line #4: link news.google.com
+Current Link: news.google.com
+
+Back with 3 links 
+[www.psme.foothill.edu , www.foothill.edu , www.google.com]
+
+
+Forward with 0 links 
+[]
+
+
+
+At line #5: contains foothill.edu
+Current Link: news.google.com
+
+Back with 3 links 
+[www.psme.foothill.edu , www.foothill.edu , www.google.com]
+
+
+Forward with 0 links 
+[]
+
+
+Link foothill.edu found
+
+
+
+At the end of test file resources/links4.txt
+Current Link: news.google.com
+
+Back with 3 links 
+[www.psme.foothill.edu , www.foothill.edu , www.google.com]
+
+
+Forward with 0 links 
+[]
+
+
+Done with BrowserNavigation.
+-----------------------------------------------------
+################# TEST CASE 5 #######################
+
+Test file: resources/links4.txt 
+
+
+NOTES: Testing adding and removing items from back 
+       and forward stacks.
+-----------------------------------------------------
+################# OUTPUT TEST CASE 5 ################
+-----------------------------------------------------
+At line #1: link www.google.com
+Current Link: www.google.com
+
+Back with 0 links 
+[]
+
+
+Forward with 0 links 
+[]
+
+WARNING! No back links left....
+
+
+At line #2: back
+Current Link: www.google.com
+
+Back with 0 links 
+[]
+
+
+Forward with 0 links 
+[]
+
+
+
+At line #3: link www.technologyreview.com
+Current Link: www.technologyreview.com
+
+Back with 1 links 
+[www.google.com]
+
+
+Forward with 0 links 
+[]
+
+
+
+At line #4: back
+Current Link: www.google.com
+
+Back with 0 links 
+[]
+
+
+Forward with 1 links 
+[www.technologyreview.com]
+
+
+
+At line #5: link www.techtimes.com
+Current Link: www.techtimes.com
+
+Back with 1 links 
+[www.google.com]
+
+
+Forward with 0 links 
+[]
+
+
+
+At line #6: back
+Current Link: www.google.com
+
+Back with 0 links 
+[]
+
+
+Forward with 1 links 
+[www.techtimes.com]
+
+
+
+At line #7: link www.java.com/en/java_in_action/alice.jsp
+Current Link: www.java.com/en/java_in_action/alice.jsp
+
+Back with 1 links 
+[www.google.com]
+
+
+Forward with 0 links 
+[]
+
+
+
+At line #8: link www.ted.com
+Current Link: www.ted.com
+
+Back with 2 links 
+[www.java.com/en/java_in_action/alice.jsp , www.google.com]
+
+
+Forward with 0 links 
+[]
+
+
+
+At line #9: link www.ted.com
+Current Link: www.ted.com
+
+Back with 3 links 
+[www.ted.com , www.java.com/en/java_in_action/alice.jsp , www.google.com]
+
+
+Forward with 0 links 
+[]
+
+
+
+At line #10: back
+Current Link: www.ted.com
+
+Back with 2 links 
+[www.java.com/en/java_in_action/alice.jsp , www.google.com]
+
+
+Forward with 1 links 
+[www.ted.com]
+
+
+
+At line #11: forward
+Current Link: www.ted.com
+
+Back with 3 links 
+[www.ted.com , www.java.com/en/java_in_action/alice.jsp , www.google.com]
+
+
+Forward with 0 links 
+[]
+
+
+
+
+At the end of test file resources/links5.txt
+Current Link: www.ted.com
+
+Back with 3 links 
+[www.ted.com , www.java.com/en/java_in_action/alice.jsp , www.google.com]
+
+
+Forward with 0 links 
+[]
+
+
+Done with BrowserNavigation.

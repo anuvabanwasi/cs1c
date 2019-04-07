@@ -1,0 +1,16 @@
+FEEDBACK:
+
+Excellent testing of your LazySearchTree implementation with the
+    additional test class.
+
+
++0.5 Excellent documentation of your implementation.
+
+
+Extra Credit:
++2 Good testing of lazy removal in FoothillTuneStore.
+
++2 Good testing of findMin() and findMax() in class FoothillTuneStore.
+    
+-Bita.
+

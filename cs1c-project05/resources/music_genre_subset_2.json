@@ -1,0 +1,87 @@
+{ "songs" : [
+    {
+        "genre": "classic pop and rock",
+        "artist_name": "Blue Oyster Cult",
+        "title": "Mes Dames Sarat",
+        "duration": "246.33424"
+    },
+    {
+        "genre": "classic pop and rock",
+        "artist_name": "Blue Oyster Cult",
+        "title": "Screams",
+        "duration": "189.80526"
+    },
+    {
+        "genre": "classic pop and rock",
+        "artist_name": "Blue Oyster Cult",
+        "title": "Dance The Night Away",
+        "duration": "158.1971"
+    },
+    {
+        "genre": "classic pop and rock",
+        "artist_name": "Blue Oyster Cult",
+        "title": "Debbie Denise",
+        "duration": "250.22649"
+    },
+    {
+        "genre": "classic pop and rock",
+        "artist_name": "Blue Oyster Cult",
+        "title": "(Don't Fear) The Reaper",
+        "duration": "307.06893"
+    },
+    {
+        "genre": "classic pop and rock",
+        "artist_name": "Blue Oyster Cult",
+        "title": "Morning Final",
+        "duration": "254.17098"
+    },
+    {
+        "genre": "classic pop and rock",
+        "artist_name": "Blue Oyster Cult",
+        "title": "The Revenge Of Vera Gemini",
+        "duration": "230.32118"
+    },
+    {
+        "genre": "classic pop and rock",
+        "artist_name": "Blue Oyster Cult",
+        "title": "True Confessions",
+        "duration": "177.55383"
+    },
+    {
+        "genre": "classic pop and rock",
+        "artist_name": "Blue Oyster Cult",
+        "title": "Out Of Stadion - Original",
+        "duration": "81.24036"
+    },
+    {
+        "genre": "classic pop and rock",
+        "artist_name": "Blue Oyster Cult",
+        "title": "Ginger Snaps - Original",
+        "duration": "94.24934"
+    },
+    {
+        "genre": "classic pop and rock",
+        "artist_name": "Blue Oyster Cult",
+        "title": "Demon's Kiss - Original",
+        "duration": "232.75057"
+    },
+    {
+        "genre": "classic pop and rock",
+        "artist_name": "Blue Oyster Cult",
+        "title": "Remodeling - Original",
+        "duration": "133.51138"
+    },
+    {
+        "genre": "classic pop and rock",
+        "artist_name": "Blue Oyster Cult",
+        "title": "Spray That Scumbag - Original",
+        "duration": "103.75791"
+    },
+    {
+        "genre": "classic pop and rock",
+        "artist_name": "Blue Oyster Cult",
+        "title": "Shadows - Original",
+        "duration": "24.99873"
+    }
+]
+}

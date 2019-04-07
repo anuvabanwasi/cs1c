@@ -1,0 +1,17 @@
+FEEDBACK:
+
+Very good testing of the FIND_SONG_BY_ID and the FIND_SONG_BY_GENRE selection.
+
+
+Good overloading of hashCode() and compareTo() methods in wrapper 
+   classes SongsCompInt and SongsInGenre.
+   
+   
+Extra Credit Opportunity:
++2.0 Excellent analysis of search times of hash table vs array of song objects via 
+     graphical representation!
+
++2.0 Excellent graphical representation and description of findings!
+
+-Bita.
+

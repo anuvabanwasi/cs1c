@@ -1,0 +1,2301 @@
+-----------------------------------------------------
+################# TEST CASE 1 #######################
+
+Test file: resources/inventory_log.txt 
+
+
+NOTES: Testing insertion/deletion of items into inventory.
+-----------------------------------------------------
+################# OUTPUT TEST CASE 1 ################
+-----------------------------------------------------
+Test file: resources/inventory_log.txt 
+
+
+Update at line #1: add soup
+"hard" number of unique items (i.e. mSizeHard) = 1
+"soft" number of unique items (i.e. mSize) = 1
+
+Testing traversing "hard" inventory:
+soup:1  
+
+Testing traversing "soft" inventory:
+soup:1  
+
+
+at line #1: add soup
+First item: soup:1 
+Last item: soup:1 
+
+
+Update at line #2: add soup
+"hard" number of unique items (i.e. mSizeHard) = 1
+"soft" number of unique items (i.e. mSize) = 1
+
+Testing traversing "hard" inventory:
+soup:2  
+
+Testing traversing "soft" inventory:
+soup:2  
+
+
+at line #2: add soup
+First item: soup:2 
+Last item: soup:2 
+
+
+Update at line #3: add milk
+"hard" number of unique items (i.e. mSizeHard) = 2
+"soft" number of unique items (i.e. mSize) = 2
+
+Testing traversing "hard" inventory:
+milk:1  soup:2  
+
+Testing traversing "soft" inventory:
+milk:1  soup:2  
+
+
+at line #3: add milk
+First item: milk:1 
+Last item: soup:2 
+
+
+Update at line #4: add milk
+"hard" number of unique items (i.e. mSizeHard) = 2
+"soft" number of unique items (i.e. mSize) = 2
+
+Testing traversing "hard" inventory:
+milk:2  soup:2  
+
+Testing traversing "soft" inventory:
+milk:2  soup:2  
+
+
+at line #4: add milk
+First item: milk:2 
+Last item: soup:2 
+
+
+Update at line #5: add apples
+"hard" number of unique items (i.e. mSizeHard) = 3
+"soft" number of unique items (i.e. mSize) = 3
+
+Testing traversing "hard" inventory:
+apples:1  milk:2  soup:2  
+
+Testing traversing "soft" inventory:
+apples:1  milk:2  soup:2  
+
+
+at line #5: add apples
+First item: apples:1 
+Last item: soup:2 
+
+
+Update at line #6: add tomato
+"hard" number of unique items (i.e. mSizeHard) = 4
+"soft" number of unique items (i.e. mSize) = 4
+
+Testing traversing "hard" inventory:
+apples:1  milk:2  soup:2  tomato:1  
+
+Testing traversing "soft" inventory:
+apples:1  milk:2  soup:2  tomato:1  
+
+
+at line #6: add tomato
+First item: apples:1 
+Last item: tomato:1 
+
+
+Update at line #7: add avocado
+"hard" number of unique items (i.e. mSizeHard) = 5
+"soft" number of unique items (i.e. mSize) = 5
+
+Testing traversing "hard" inventory:
+apples:1  avocado:1  milk:2  soup:2  tomato:1  
+
+Testing traversing "soft" inventory:
+apples:1  avocado:1  milk:2  soup:2  tomato:1  
+
+
+at line #7: add avocado
+First item: apples:1 
+Last item: tomato:1 
+
+
+Update at line #8: add eggplant
+"hard" number of unique items (i.e. mSizeHard) = 6
+"soft" number of unique items (i.e. mSize) = 6
+
+Testing traversing "hard" inventory:
+apples:1  avocado:1  eggplant:1  milk:2  soup:2  tomato:1  
+
+Testing traversing "soft" inventory:
+apples:1  avocado:1  eggplant:1  milk:2  soup:2  tomato:1  
+
+
+at line #8: add eggplant
+First item: apples:1 
+Last item: tomato:1 
+
+
+Update at line #9: add tomato
+"hard" number of unique items (i.e. mSizeHard) = 6
+"soft" number of unique items (i.e. mSize) = 6
+
+Testing traversing "hard" inventory:
+apples:1  avocado:1  eggplant:1  milk:2  soup:2  tomato:2  
+
+Testing traversing "soft" inventory:
+apples:1  avocado:1  eggplant:1  milk:2  soup:2  tomato:2  
+
+
+at line #9: add tomato
+First item: apples:1 
+Last item: tomato:2 
+
+
+Update at line #10: add onion
+"hard" number of unique items (i.e. mSizeHard) = 7
+"soft" number of unique items (i.e. mSize) = 7
+
+Testing traversing "hard" inventory:
+apples:1  avocado:1  eggplant:1  milk:2  onion:1  soup:2  tomato:2  
+
+Testing traversing "soft" inventory:
+apples:1  avocado:1  eggplant:1  milk:2  onion:1  soup:2  tomato:2  
+
+
+at line #10: add onion
+First item: apples:1 
+Last item: tomato:2 
+
+
+Update at line #11: add beans
+"hard" number of unique items (i.e. mSizeHard) = 8
+"soft" number of unique items (i.e. mSize) = 8
+
+Testing traversing "hard" inventory:
+apples:1  avocado:1  beans:1  eggplant:1  milk:2  onion:1  soup:2  tomato:2  
+
+Testing traversing "soft" inventory:
+apples:1  avocado:1  beans:1  eggplant:1  milk:2  onion:1  soup:2  tomato:2  
+
+
+at line #11: add beans
+First item: apples:1 
+Last item: tomato:2 
+
+
+Update at line #12: add beans
+"hard" number of unique items (i.e. mSizeHard) = 8
+"soft" number of unique items (i.e. mSize) = 8
+
+Testing traversing "hard" inventory:
+apples:1  avocado:1  beans:2  eggplant:1  milk:2  onion:1  soup:2  tomato:2  
+
+Testing traversing "soft" inventory:
+apples:1  avocado:1  beans:2  eggplant:1  milk:2  onion:1  soup:2  tomato:2  
+
+
+at line #12: add beans
+First item: apples:1 
+Last item: tomato:2 
+
+
+Update at line #13: buy apples
+"hard" number of unique items (i.e. mSizeHard) = 8
+"soft" number of unique items (i.e. mSize) = 7
+
+Testing traversing "hard" inventory:
+apples:0  avocado:1  beans:2  eggplant:1  milk:2  onion:1  soup:2  tomato:2  
+
+Testing traversing "soft" inventory:
+avocado:1  beans:2  eggplant:1  milk:2  onion:1  soup:2  tomato:2  
+
+
+at line #13: buy apples
+First item: avocado:1 
+Last item: tomato:2 
+
+Warning: Unable to fulfill request: at line #14: buy fish 
+Warning: Item fish is out of stock.
+
+at line #14: buy fish
+First item: avocado:1 
+Last item: tomato:2 
+
+
+Update at line #15: add pie
+"hard" number of unique items (i.e. mSizeHard) = 9
+"soft" number of unique items (i.e. mSize) = 8
+
+Testing traversing "hard" inventory:
+apples:0  avocado:1  beans:2  eggplant:1  milk:2  onion:1  pie:1  soup:2  tomato:2  
+
+Testing traversing "soft" inventory:
+avocado:1  beans:2  eggplant:1  milk:2  onion:1  pie:1  soup:2  tomato:2  
+
+
+at line #15: add pie
+First item: avocado:1 
+Last item: tomato:2 
+
+
+Update at line #16: add tomato
+"hard" number of unique items (i.e. mSizeHard) = 9
+"soft" number of unique items (i.e. mSize) = 8
+
+Testing traversing "hard" inventory:
+apples:0  avocado:1  beans:2  eggplant:1  milk:2  onion:1  pie:1  soup:2  tomato:3  
+
+Testing traversing "soft" inventory:
+avocado:1  beans:2  eggplant:1  milk:2  onion:1  pie:1  soup:2  tomato:3  
+
+
+at line #16: add tomato
+First item: avocado:1 
+Last item: tomato:3 
+
+
+Update at line #17: add cake
+"hard" number of unique items (i.e. mSizeHard) = 10
+"soft" number of unique items (i.e. mSize) = 9
+
+Testing traversing "hard" inventory:
+apples:0  avocado:1  beans:2  cake:1  eggplant:1  milk:2  onion:1  pie:1  soup:2  tomato:3  
+
+Testing traversing "soft" inventory:
+avocado:1  beans:2  cake:1  eggplant:1  milk:2  onion:1  pie:1  soup:2  tomato:3  
+
+
+at line #17: add cake
+First item: avocado:1 
+Last item: tomato:3 
+
+
+Update at line #18: add fish
+"hard" number of unique items (i.e. mSizeHard) = 11
+"soft" number of unique items (i.e. mSize) = 10
+
+Testing traversing "hard" inventory:
+apples:0  avocado:1  beans:2  cake:1  eggplant:1  fish:1  milk:2  onion:1  pie:1  soup:2  tomato:3  
+
+Testing traversing "soft" inventory:
+avocado:1  beans:2  cake:1  eggplant:1  fish:1  milk:2  onion:1  pie:1  soup:2  tomato:3  
+
+
+at line #18: add fish
+First item: avocado:1 
+Last item: tomato:3 
+
+
+Update at line #19: add chicken
+"hard" number of unique items (i.e. mSizeHard) = 12
+"soft" number of unique items (i.e. mSize) = 11
+
+Testing traversing "hard" inventory:
+apples:0  avocado:1  beans:2  cake:1  chicken:1  eggplant:1  fish:1  milk:2  onion:1  pie:1  soup:2  tomato:3  
+
+Testing traversing "soft" inventory:
+avocado:1  beans:2  cake:1  chicken:1  eggplant:1  fish:1  milk:2  onion:1  pie:1  soup:2  tomato:3  
+
+
+at line #19: add chicken
+First item: avocado:1 
+Last item: tomato:3 
+
+
+Update at line #20: add cereal
+"hard" number of unique items (i.e. mSizeHard) = 13
+"soft" number of unique items (i.e. mSize) = 12
+
+Testing traversing "hard" inventory:
+apples:0  avocado:1  beans:2  cake:1  cereal:1  chicken:1  eggplant:1  fish:1  milk:2  onion:1  pie:1  soup:2  tomato:3  
+
+Testing traversing "soft" inventory:
+avocado:1  beans:2  cake:1  cereal:1  chicken:1  eggplant:1  fish:1  milk:2  onion:1  pie:1  soup:2  tomato:3  
+
+
+at line #20: add cereal
+First item: avocado:1 
+Last item: tomato:3 
+
+
+Update at line #21: add cookies
+"hard" number of unique items (i.e. mSizeHard) = 14
+"soft" number of unique items (i.e. mSize) = 13
+
+Testing traversing "hard" inventory:
+apples:0  avocado:1  beans:2  cake:1  cereal:1  chicken:1  cookies:1  eggplant:1  fish:1  milk:2  onion:1  pie:1  soup:2  tomato:3  
+
+Testing traversing "soft" inventory:
+avocado:1  beans:2  cake:1  cereal:1  chicken:1  cookies:1  eggplant:1  fish:1  milk:2  onion:1  pie:1  soup:2  tomato:3  
+
+
+at line #21: add cookies
+First item: avocado:1 
+Last item: tomato:3 
+
+
+Update at line #22: buy onion
+"hard" number of unique items (i.e. mSizeHard) = 14
+"soft" number of unique items (i.e. mSize) = 12
+
+Testing traversing "hard" inventory:
+apples:0  avocado:1  beans:2  cake:1  cereal:1  chicken:1  cookies:1  eggplant:1  fish:1  milk:2  onion:0  pie:1  soup:2  tomato:3  
+
+Testing traversing "soft" inventory:
+avocado:1  beans:2  cake:1  cereal:1  chicken:1  cookies:1  eggplant:1  fish:1  milk:2  pie:1  soup:2  tomato:3  
+
+
+at line #22: buy onion
+First item: avocado:1 
+Last item: tomato:3 
+
+
+Update at line #23: buy pie
+"hard" number of unique items (i.e. mSizeHard) = 14
+"soft" number of unique items (i.e. mSize) = 11
+
+Testing traversing "hard" inventory:
+apples:0  avocado:1  beans:2  cake:1  cereal:1  chicken:1  cookies:1  eggplant:1  fish:1  milk:2  onion:0  pie:0  soup:2  tomato:3  
+
+Testing traversing "soft" inventory:
+avocado:1  beans:2  cake:1  cereal:1  chicken:1  cookies:1  eggplant:1  fish:1  milk:2  soup:2  tomato:3  
+
+
+at line #23: buy pie
+First item: avocado:1 
+Last item: tomato:3 
+
+
+Update at line #24: buy cookies
+"hard" number of unique items (i.e. mSizeHard) = 14
+"soft" number of unique items (i.e. mSize) = 10
+
+Testing traversing "hard" inventory:
+apples:0  avocado:1  beans:2  cake:1  cereal:1  chicken:1  cookies:0  eggplant:1  fish:1  milk:2  onion:0  pie:0  soup:2  tomato:3  
+
+Testing traversing "soft" inventory:
+avocado:1  beans:2  cake:1  cereal:1  chicken:1  eggplant:1  fish:1  milk:2  soup:2  tomato:3  
+
+
+at line #24: buy cookies
+First item: avocado:1 
+Last item: tomato:3 
+
+
+Update at line #25: add apples
+"hard" number of unique items (i.e. mSizeHard) = 14
+"soft" number of unique items (i.e. mSize) = 11
+
+Testing traversing "hard" inventory:
+apples:1  avocado:1  beans:2  cake:1  cereal:1  chicken:1  cookies:0  eggplant:1  fish:1  milk:2  onion:0  pie:0  soup:2  tomato:3  
+
+Testing traversing "soft" inventory:
+apples:1  avocado:1  beans:2  cake:1  cereal:1  chicken:1  eggplant:1  fish:1  milk:2  soup:2  tomato:3  
+
+
+at line #25: add apples
+First item: apples:1 
+Last item: tomato:3 
+
+
+Update at line #26: add basil
+"hard" number of unique items (i.e. mSizeHard) = 15
+"soft" number of unique items (i.e. mSize) = 12
+
+Testing traversing "hard" inventory:
+apples:1  avocado:1  basil:1  beans:2  cake:1  cereal:1  chicken:1  cookies:0  eggplant:1  fish:1  milk:2  onion:0  pie:0  soup:2  tomato:3  
+
+Testing traversing "soft" inventory:
+apples:1  avocado:1  basil:1  beans:2  cake:1  cereal:1  chicken:1  eggplant:1  fish:1  milk:2  soup:2  tomato:3  
+
+
+at line #26: add basil
+First item: apples:1 
+Last item: tomato:3 
+
+
+Update at line #27: add juice
+"hard" number of unique items (i.e. mSizeHard) = 16
+"soft" number of unique items (i.e. mSize) = 13
+
+Testing traversing "hard" inventory:
+apples:1  avocado:1  basil:1  beans:2  cake:1  cereal:1  chicken:1  cookies:0  eggplant:1  fish:1  juice:1  milk:2  onion:0  pie:0  soup:2  tomato:3  
+
+Testing traversing "soft" inventory:
+apples:1  avocado:1  basil:1  beans:2  cake:1  cereal:1  chicken:1  eggplant:1  fish:1  juice:1  milk:2  soup:2  tomato:3  
+
+
+at line #27: add juice
+First item: apples:1 
+Last item: tomato:3 
+
+
+Update at line #28: add juice
+"hard" number of unique items (i.e. mSizeHard) = 16
+"soft" number of unique items (i.e. mSize) = 13
+
+Testing traversing "hard" inventory:
+apples:1  avocado:1  basil:1  beans:2  cake:1  cereal:1  chicken:1  cookies:0  eggplant:1  fish:1  juice:2  milk:2  onion:0  pie:0  soup:2  tomato:3  
+
+Testing traversing "soft" inventory:
+apples:1  avocado:1  basil:1  beans:2  cake:1  cereal:1  chicken:1  eggplant:1  fish:1  juice:2  milk:2  soup:2  tomato:3  
+
+
+at line #28: add juice
+First item: apples:1 
+Last item: tomato:3 
+
+
+Update at line #29: add bread
+"hard" number of unique items (i.e. mSizeHard) = 17
+"soft" number of unique items (i.e. mSize) = 14
+
+Testing traversing "hard" inventory:
+apples:1  avocado:1  basil:1  beans:2  bread:1  cake:1  cereal:1  chicken:1  cookies:0  eggplant:1  fish:1  juice:2  milk:2  onion:0  pie:0  soup:2  tomato:3  
+
+Testing traversing "soft" inventory:
+apples:1  avocado:1  basil:1  beans:2  bread:1  cake:1  cereal:1  chicken:1  eggplant:1  fish:1  juice:2  milk:2  soup:2  tomato:3  
+
+
+at line #29: add bread
+First item: apples:1 
+Last item: tomato:3 
+
+
+Update at line #30: add meat
+"hard" number of unique items (i.e. mSizeHard) = 18
+"soft" number of unique items (i.e. mSize) = 15
+
+Testing traversing "hard" inventory:
+apples:1  avocado:1  basil:1  beans:2  bread:1  cake:1  cereal:1  chicken:1  cookies:0  eggplant:1  fish:1  juice:2  meat:1  milk:2  onion:0  pie:0  soup:2  tomato:3  
+
+Testing traversing "soft" inventory:
+apples:1  avocado:1  basil:1  beans:2  bread:1  cake:1  cereal:1  chicken:1  eggplant:1  fish:1  juice:2  meat:1  milk:2  soup:2  tomato:3  
+
+
+at line #30: add meat
+First item: apples:1 
+Last item: tomato:3 
+
+
+Update at line #31: add eggplant
+"hard" number of unique items (i.e. mSizeHard) = 18
+"soft" number of unique items (i.e. mSize) = 15
+
+Testing traversing "hard" inventory:
+apples:1  avocado:1  basil:1  beans:2  bread:1  cake:1  cereal:1  chicken:1  cookies:0  eggplant:2  fish:1  juice:2  meat:1  milk:2  onion:0  pie:0  soup:2  tomato:3  
+
+Testing traversing "soft" inventory:
+apples:1  avocado:1  basil:1  beans:2  bread:1  cake:1  cereal:1  chicken:1  eggplant:2  fish:1  juice:2  meat:1  milk:2  soup:2  tomato:3  
+
+
+at line #31: add eggplant
+First item: apples:1 
+Last item: tomato:3 
+
+
+Update at line #32: add bread
+"hard" number of unique items (i.e. mSizeHard) = 18
+"soft" number of unique items (i.e. mSize) = 15
+
+Testing traversing "hard" inventory:
+apples:1  avocado:1  basil:1  beans:2  bread:2  cake:1  cereal:1  chicken:1  cookies:0  eggplant:2  fish:1  juice:2  meat:1  milk:2  onion:0  pie:0  soup:2  tomato:3  
+
+Testing traversing "soft" inventory:
+apples:1  avocado:1  basil:1  beans:2  bread:2  cake:1  cereal:1  chicken:1  eggplant:2  fish:1  juice:2  meat:1  milk:2  soup:2  tomato:3  
+
+
+at line #32: add bread
+First item: apples:1 
+Last item: tomato:3 
+
+
+Update at line #33: add tomato
+"hard" number of unique items (i.e. mSizeHard) = 18
+"soft" number of unique items (i.e. mSize) = 15
+
+Testing traversing "hard" inventory:
+apples:1  avocado:1  basil:1  beans:2  bread:2  cake:1  cereal:1  chicken:1  cookies:0  eggplant:2  fish:1  juice:2  meat:1  milk:2  onion:0  pie:0  soup:2  tomato:4  
+
+Testing traversing "soft" inventory:
+apples:1  avocado:1  basil:1  beans:2  bread:2  cake:1  cereal:1  chicken:1  eggplant:2  fish:1  juice:2  meat:1  milk:2  soup:2  tomato:4  
+
+
+at line #33: add tomato
+First item: apples:1 
+Last item: tomato:4 
+
+
+Update at line #34: buy meat
+"hard" number of unique items (i.e. mSizeHard) = 18
+"soft" number of unique items (i.e. mSize) = 14
+
+Testing traversing "hard" inventory:
+apples:1  avocado:1  basil:1  beans:2  bread:2  cake:1  cereal:1  chicken:1  cookies:0  eggplant:2  fish:1  juice:2  meat:0  milk:2  onion:0  pie:0  soup:2  tomato:4  
+
+Testing traversing "soft" inventory:
+apples:1  avocado:1  basil:1  beans:2  bread:2  cake:1  cereal:1  chicken:1  eggplant:2  fish:1  juice:2  milk:2  soup:2  tomato:4  
+
+
+at line #34: buy meat
+First item: apples:1 
+Last item: tomato:4 
+
+
+Update at line #35: add soup
+"hard" number of unique items (i.e. mSizeHard) = 18
+"soft" number of unique items (i.e. mSize) = 14
+
+Testing traversing "hard" inventory:
+apples:1  avocado:1  basil:1  beans:2  bread:2  cake:1  cereal:1  chicken:1  cookies:0  eggplant:2  fish:1  juice:2  meat:0  milk:2  onion:0  pie:0  soup:3  tomato:4  
+
+Testing traversing "soft" inventory:
+apples:1  avocado:1  basil:1  beans:2  bread:2  cake:1  cereal:1  chicken:1  eggplant:2  fish:1  juice:2  milk:2  soup:3  tomato:4  
+
+
+at line #35: add soup
+First item: apples:1 
+Last item: tomato:4 
+
+
+Update at line #36: add spaghetti
+"hard" number of unique items (i.e. mSizeHard) = 19
+"soft" number of unique items (i.e. mSize) = 15
+
+Testing traversing "hard" inventory:
+apples:1  avocado:1  basil:1  beans:2  bread:2  cake:1  cereal:1  chicken:1  cookies:0  eggplant:2  fish:1  juice:2  meat:0  milk:2  onion:0  pie:0  soup:3  spaghetti:1  tomato:4  
+
+Testing traversing "soft" inventory:
+apples:1  avocado:1  basil:1  beans:2  bread:2  cake:1  cereal:1  chicken:1  eggplant:2  fish:1  juice:2  milk:2  soup:3  spaghetti:1  tomato:4  
+
+
+at line #36: add spaghetti
+First item: apples:1 
+Last item: tomato:4 
+
+
+Update at line #37: add linguine
+"hard" number of unique items (i.e. mSizeHard) = 20
+"soft" number of unique items (i.e. mSize) = 16
+
+Testing traversing "hard" inventory:
+apples:1  avocado:1  basil:1  beans:2  bread:2  cake:1  cereal:1  chicken:1  cookies:0  eggplant:2  fish:1  juice:2  linguine:1  meat:0  milk:2  onion:0  pie:0  soup:3  spaghetti:1  tomato:4  
+
+Testing traversing "soft" inventory:
+apples:1  avocado:1  basil:1  beans:2  bread:2  cake:1  cereal:1  chicken:1  eggplant:2  fish:1  juice:2  linguine:1  milk:2  soup:3  spaghetti:1  tomato:4  
+
+
+at line #37: add linguine
+First item: apples:1 
+Last item: tomato:4 
+
+
+Update at line #38: add onion
+"hard" number of unique items (i.e. mSizeHard) = 20
+"soft" number of unique items (i.e. mSize) = 17
+
+Testing traversing "hard" inventory:
+apples:1  avocado:1  basil:1  beans:2  bread:2  cake:1  cereal:1  chicken:1  cookies:0  eggplant:2  fish:1  juice:2  linguine:1  meat:0  milk:2  onion:1  pie:0  soup:3  spaghetti:1  tomato:4  
+
+Testing traversing "soft" inventory:
+apples:1  avocado:1  basil:1  beans:2  bread:2  cake:1  cereal:1  chicken:1  eggplant:2  fish:1  juice:2  linguine:1  milk:2  onion:1  soup:3  spaghetti:1  tomato:4  
+
+
+at line #38: add onion
+First item: apples:1 
+Last item: tomato:4 
+
+
+Update at line #39: add cereal
+"hard" number of unique items (i.e. mSizeHard) = 20
+"soft" number of unique items (i.e. mSize) = 17
+
+Testing traversing "hard" inventory:
+apples:1  avocado:1  basil:1  beans:2  bread:2  cake:1  cereal:2  chicken:1  cookies:0  eggplant:2  fish:1  juice:2  linguine:1  meat:0  milk:2  onion:1  pie:0  soup:3  spaghetti:1  tomato:4  
+
+Testing traversing "soft" inventory:
+apples:1  avocado:1  basil:1  beans:2  bread:2  cake:1  cereal:2  chicken:1  eggplant:2  fish:1  juice:2  linguine:1  milk:2  onion:1  soup:3  spaghetti:1  tomato:4  
+
+
+at line #39: add cereal
+First item: apples:1 
+Last item: tomato:4 
+
+
+Update at line #40: add milk
+"hard" number of unique items (i.e. mSizeHard) = 20
+"soft" number of unique items (i.e. mSize) = 17
+
+Testing traversing "hard" inventory:
+apples:1  avocado:1  basil:1  beans:2  bread:2  cake:1  cereal:2  chicken:1  cookies:0  eggplant:2  fish:1  juice:2  linguine:1  meat:0  milk:3  onion:1  pie:0  soup:3  spaghetti:1  tomato:4  
+
+Testing traversing "soft" inventory:
+apples:1  avocado:1  basil:1  beans:2  bread:2  cake:1  cereal:2  chicken:1  eggplant:2  fish:1  juice:2  linguine:1  milk:3  onion:1  soup:3  spaghetti:1  tomato:4  
+
+
+at line #40: add milk
+First item: apples:1 
+Last item: tomato:4 
+
+
+Update at line #41: buy milk
+"hard" number of unique items (i.e. mSizeHard) = 20
+"soft" number of unique items (i.e. mSize) = 17
+
+Testing traversing "hard" inventory:
+apples:1  avocado:1  basil:1  beans:2  bread:2  cake:1  cereal:2  chicken:1  cookies:0  eggplant:2  fish:1  juice:2  linguine:1  meat:0  milk:2  onion:1  pie:0  soup:3  spaghetti:1  tomato:4  
+
+Testing traversing "soft" inventory:
+apples:1  avocado:1  basil:1  beans:2  bread:2  cake:1  cereal:2  chicken:1  eggplant:2  fish:1  juice:2  linguine:1  milk:2  onion:1  soup:3  spaghetti:1  tomato:4  
+
+
+at line #41: buy milk
+First item: apples:1 
+Last item: tomato:4 
+
+
+Update at line #42: buy bread
+"hard" number of unique items (i.e. mSizeHard) = 20
+"soft" number of unique items (i.e. mSize) = 17
+
+Testing traversing "hard" inventory:
+apples:1  avocado:1  basil:1  beans:2  bread:1  cake:1  cereal:2  chicken:1  cookies:0  eggplant:2  fish:1  juice:2  linguine:1  meat:0  milk:2  onion:1  pie:0  soup:3  spaghetti:1  tomato:4  
+
+Testing traversing "soft" inventory:
+apples:1  avocado:1  basil:1  beans:2  bread:1  cake:1  cereal:2  chicken:1  eggplant:2  fish:1  juice:2  linguine:1  milk:2  onion:1  soup:3  spaghetti:1  tomato:4  
+
+
+at line #42: buy bread
+First item: apples:1 
+Last item: tomato:4 
+
+
+Update at line #43: buy juice
+"hard" number of unique items (i.e. mSizeHard) = 20
+"soft" number of unique items (i.e. mSize) = 17
+
+Testing traversing "hard" inventory:
+apples:1  avocado:1  basil:1  beans:2  bread:1  cake:1  cereal:2  chicken:1  cookies:0  eggplant:2  fish:1  juice:1  linguine:1  meat:0  milk:2  onion:1  pie:0  soup:3  spaghetti:1  tomato:4  
+
+Testing traversing "soft" inventory:
+apples:1  avocado:1  basil:1  beans:2  bread:1  cake:1  cereal:2  chicken:1  eggplant:2  fish:1  juice:1  linguine:1  milk:2  onion:1  soup:3  spaghetti:1  tomato:4  
+
+
+at line #43: buy juice
+First item: apples:1 
+Last item: tomato:4 
+
+Warning: Unable to fulfill request: at line #44: buy pie 
+Warning: Item pie is out of stock.
+
+at line #44: buy pie
+First item: apples:1 
+Last item: tomato:4 
+
+
+Update at line #45: buy chicken
+"hard" number of unique items (i.e. mSizeHard) = 20
+"soft" number of unique items (i.e. mSize) = 16
+
+Testing traversing "hard" inventory:
+apples:1  avocado:1  basil:1  beans:2  bread:1  cake:1  cereal:2  chicken:0  cookies:0  eggplant:2  fish:1  juice:1  linguine:1  meat:0  milk:2  onion:1  pie:0  soup:3  spaghetti:1  tomato:4  
+
+Testing traversing "soft" inventory:
+apples:1  avocado:1  basil:1  beans:2  bread:1  cake:1  cereal:2  eggplant:2  fish:1  juice:1  linguine:1  milk:2  onion:1  soup:3  spaghetti:1  tomato:4  
+
+
+at line #45: buy chicken
+First item: apples:1 
+Last item: tomato:4 
+
+
+
+
+Final state of inventory:
+"hard" number of unique items (i.e. mSizeHard) = 20
+"soft" number of unique items (i.e. mSize) = 16
+
+Testing traversing "hard" inventory:
+apples:1  avocado:1  basil:1  beans:2  bread:1  cake:1  cereal:2  chicken:0  cookies:0  eggplant:2  fish:1  juice:1  linguine:1  meat:0  milk:2  onion:1  pie:0  soup:3  spaghetti:1  tomato:4  
+
+Testing traversing "soft" inventory:
+apples:1  avocado:1  basil:1  beans:2  bread:1  cake:1  cereal:2  eggplant:2  fish:1  juice:1  linguine:1  milk:2  onion:1  soup:3  spaghetti:1  tomato:4  
+
+
+Done with SuperMarket.
+-----------------------------------------------------
+################# TEST CASE 2 #######################
+
+Test file: resources/inventory_short.txt 
+
+
+NOTES: Testing insertion/deletion of items into inventory.
+-----------------------------------------------------
+################# OUTPUT TEST CASE 2 ################
+-----------------------------------------------------
+Test file: resources/inventory_short.txt 
+
+
+Update at line #1: add soup
+"hard" number of unique items (i.e. mSizeHard) = 1
+"soft" number of unique items (i.e. mSize) = 1
+
+Testing traversing "hard" inventory:
+soup:1  
+
+Testing traversing "soft" inventory:
+soup:1  
+
+
+at line #1: add soup
+First item: soup:1 
+Last item: soup:1 
+
+
+Update at line #2: add tangerines
+"hard" number of unique items (i.e. mSizeHard) = 2
+"soft" number of unique items (i.e. mSize) = 2
+
+Testing traversing "hard" inventory:
+soup:1  tangerines:1  
+
+Testing traversing "soft" inventory:
+soup:1  tangerines:1  
+
+
+at line #2: add tangerines
+First item: soup:1 
+Last item: tangerines:1 
+
+
+Update at line #3: add turnips
+"hard" number of unique items (i.e. mSizeHard) = 3
+"soft" number of unique items (i.e. mSize) = 3
+
+Testing traversing "hard" inventory:
+soup:1  tangerines:1  turnips:1  
+
+Testing traversing "soft" inventory:
+soup:1  tangerines:1  turnips:1  
+
+
+at line #3: add turnips
+First item: soup:1 
+Last item: turnips:1 
+
+
+Update at line #4: add milk
+"hard" number of unique items (i.e. mSizeHard) = 4
+"soft" number of unique items (i.e. mSize) = 4
+
+Testing traversing "hard" inventory:
+milk:1  soup:1  tangerines:1  turnips:1  
+
+Testing traversing "soft" inventory:
+milk:1  soup:1  tangerines:1  turnips:1  
+
+
+at line #4: add milk
+First item: milk:1 
+Last item: turnips:1 
+
+
+Update at line #5: add apples
+"hard" number of unique items (i.e. mSizeHard) = 5
+"soft" number of unique items (i.e. mSize) = 5
+
+Testing traversing "hard" inventory:
+apples:1  milk:1  soup:1  tangerines:1  turnips:1  
+
+Testing traversing "soft" inventory:
+apples:1  milk:1  soup:1  tangerines:1  turnips:1  
+
+
+at line #5: add apples
+First item: apples:1 
+Last item: turnips:1 
+
+
+Update at line #6: add apples
+"hard" number of unique items (i.e. mSizeHard) = 5
+"soft" number of unique items (i.e. mSize) = 5
+
+Testing traversing "hard" inventory:
+apples:2  milk:1  soup:1  tangerines:1  turnips:1  
+
+Testing traversing "soft" inventory:
+apples:2  milk:1  soup:1  tangerines:1  turnips:1  
+
+
+at line #6: add apples
+First item: apples:2 
+Last item: turnips:1 
+
+
+Update at line #7: add apples
+"hard" number of unique items (i.e. mSizeHard) = 5
+"soft" number of unique items (i.e. mSize) = 5
+
+Testing traversing "hard" inventory:
+apples:3  milk:1  soup:1  tangerines:1  turnips:1  
+
+Testing traversing "soft" inventory:
+apples:3  milk:1  soup:1  tangerines:1  turnips:1  
+
+
+at line #7: add apples
+First item: apples:3 
+Last item: turnips:1 
+
+
+Update at line #8: add bread
+"hard" number of unique items (i.e. mSizeHard) = 6
+"soft" number of unique items (i.e. mSize) = 6
+
+Testing traversing "hard" inventory:
+apples:3  bread:1  milk:1  soup:1  tangerines:1  turnips:1  
+
+Testing traversing "soft" inventory:
+apples:3  bread:1  milk:1  soup:1  tangerines:1  turnips:1  
+
+
+at line #8: add bread
+First item: apples:3 
+Last item: turnips:1 
+
+
+Update at line #9: buy soup
+"hard" number of unique items (i.e. mSizeHard) = 6
+"soft" number of unique items (i.e. mSize) = 5
+
+Testing traversing "hard" inventory:
+apples:3  bread:1  milk:1  soup:0  tangerines:1  turnips:1  
+
+Testing traversing "soft" inventory:
+apples:3  bread:1  milk:1  tangerines:1  turnips:1  
+
+
+at line #9: buy soup
+First item: apples:3 
+Last item: turnips:1 
+
+
+Update at line #10: buy milk
+"hard" number of unique items (i.e. mSizeHard) = 6
+"soft" number of unique items (i.e. mSize) = 4
+
+Testing traversing "hard" inventory:
+apples:3  bread:1  milk:0  soup:0  tangerines:1  turnips:1  
+
+Testing traversing "soft" inventory:
+apples:3  bread:1  tangerines:1  turnips:1  
+
+
+at line #10: buy milk
+First item: apples:3 
+Last item: turnips:1 
+
+
+Update at line #11: buy bread
+"hard" number of unique items (i.e. mSizeHard) = 6
+"soft" number of unique items (i.e. mSize) = 3
+
+Testing traversing "hard" inventory:
+apples:3  bread:0  milk:0  soup:0  tangerines:1  turnips:1  
+
+Testing traversing "soft" inventory:
+apples:3  tangerines:1  turnips:1  
+
+
+at line #11: buy bread
+First item: apples:3 
+Last item: turnips:1 
+
+
+Update at line #12: buy apples
+"hard" number of unique items (i.e. mSizeHard) = 6
+"soft" number of unique items (i.e. mSize) = 3
+
+Testing traversing "hard" inventory:
+apples:2  bread:0  milk:0  soup:0  tangerines:1  turnips:1  
+
+Testing traversing "soft" inventory:
+apples:2  tangerines:1  turnips:1  
+
+
+at line #12: buy apples
+First item: apples:2 
+Last item: turnips:1 
+
+
+
+
+Final state of inventory:
+"hard" number of unique items (i.e. mSizeHard) = 6
+"soft" number of unique items (i.e. mSize) = 3
+
+Testing traversing "hard" inventory:
+apples:2  bread:0  milk:0  soup:0  tangerines:1  turnips:1  
+
+Testing traversing "soft" inventory:
+apples:2  tangerines:1  turnips:1  
+
+
+Done with SuperMarket.
+-----------------------------------------------------
+################# TEST CASE 3 #######################
+
+Test file: resources/inventory_invalid_removal.txt 
+
+
+NOTES: Testing insertion/deletion of items into inventory.Showing an Item with a count of 1 in the inventory and the user's request to buy the item twice: 
+-----------------------------------------------------
+################# OUTPUT TEST CASE 3 ################
+-----------------------------------------------------
+Test file: resources/inventory_invalid_removal.txt 
+
+
+Update at line #1: add soup
+"hard" number of unique items (i.e. mSizeHard) = 1
+"soft" number of unique items (i.e. mSize) = 1
+
+Testing traversing "hard" inventory:
+soup:1  
+
+Testing traversing "soft" inventory:
+soup:1  
+
+
+at line #1: add soup
+First item: soup:1 
+Last item: soup:1 
+
+
+Update at line #2: add tangerines
+"hard" number of unique items (i.e. mSizeHard) = 2
+"soft" number of unique items (i.e. mSize) = 2
+
+Testing traversing "hard" inventory:
+soup:1  tangerines:1  
+
+Testing traversing "soft" inventory:
+soup:1  tangerines:1  
+
+
+at line #2: add tangerines
+First item: soup:1 
+Last item: tangerines:1 
+
+
+Update at line #3: add turnips
+"hard" number of unique items (i.e. mSizeHard) = 3
+"soft" number of unique items (i.e. mSize) = 3
+
+Testing traversing "hard" inventory:
+soup:1  tangerines:1  turnips:1  
+
+Testing traversing "soft" inventory:
+soup:1  tangerines:1  turnips:1  
+
+
+at line #3: add turnips
+First item: soup:1 
+Last item: turnips:1 
+
+
+Update at line #4: add milk
+"hard" number of unique items (i.e. mSizeHard) = 4
+"soft" number of unique items (i.e. mSize) = 4
+
+Testing traversing "hard" inventory:
+milk:1  soup:1  tangerines:1  turnips:1  
+
+Testing traversing "soft" inventory:
+milk:1  soup:1  tangerines:1  turnips:1  
+
+
+at line #4: add milk
+First item: milk:1 
+Last item: turnips:1 
+
+
+Update at line #5: add apples
+"hard" number of unique items (i.e. mSizeHard) = 5
+"soft" number of unique items (i.e. mSize) = 5
+
+Testing traversing "hard" inventory:
+apples:1  milk:1  soup:1  tangerines:1  turnips:1  
+
+Testing traversing "soft" inventory:
+apples:1  milk:1  soup:1  tangerines:1  turnips:1  
+
+
+at line #5: add apples
+First item: apples:1 
+Last item: turnips:1 
+
+
+Update at line #6: add bread
+"hard" number of unique items (i.e. mSizeHard) = 6
+"soft" number of unique items (i.e. mSize) = 6
+
+Testing traversing "hard" inventory:
+apples:1  bread:1  milk:1  soup:1  tangerines:1  turnips:1  
+
+Testing traversing "soft" inventory:
+apples:1  bread:1  milk:1  soup:1  tangerines:1  turnips:1  
+
+
+at line #6: add bread
+First item: apples:1 
+Last item: turnips:1 
+
+
+Update at line #7: buy soup
+"hard" number of unique items (i.e. mSizeHard) = 6
+"soft" number of unique items (i.e. mSize) = 5
+
+Testing traversing "hard" inventory:
+apples:1  bread:1  milk:1  soup:0  tangerines:1  turnips:1  
+
+Testing traversing "soft" inventory:
+apples:1  bread:1  milk:1  tangerines:1  turnips:1  
+
+
+at line #7: buy soup
+First item: apples:1 
+Last item: turnips:1 
+
+Warning: Unable to fulfill request: at line #8: buy soup 
+Warning: Item soup is out of stock.
+
+at line #8: buy soup
+First item: apples:1 
+Last item: turnips:1 
+
+
+
+
+Final state of inventory:
+"hard" number of unique items (i.e. mSizeHard) = 6
+"soft" number of unique items (i.e. mSize) = 5
+
+Testing traversing "hard" inventory:
+apples:1  bread:1  milk:1  soup:0  tangerines:1  turnips:1  
+
+Testing traversing "soft" inventory:
+apples:1  bread:1  milk:1  tangerines:1  turnips:1  
+
+
+Done with SuperMarket.
+
+-----------------------------------------------------
+################# TEST CASE 4 #######################
+
+Test file: resources/inventory_all_delete.txt 
+
+
+NOTES: Testing insertion/deletion of items into inventory.
+Shows deletion of all items from inventory
+-----------------------------------------------------
+################# OUTPUT TEST CASE 4 ################
+-----------------------------------------------------
+Test file: resources/inventory_all_delete.txt 
+
+
+Update at line #1: add soup
+"hard" number of unique items (i.e. mSizeHard) = 1
+"soft" number of unique items (i.e. mSize) = 1
+
+Testing traversing "hard" inventory:
+soup:1  
+
+Testing traversing "soft" inventory:
+soup:1  
+
+
+at line #1: add soup
+First item: soup:1 
+Last item: soup:1 
+
+
+Update at line #2: add tangerines
+"hard" number of unique items (i.e. mSizeHard) = 2
+"soft" number of unique items (i.e. mSize) = 2
+
+Testing traversing "hard" inventory:
+soup:1  tangerines:1  
+
+Testing traversing "soft" inventory:
+soup:1  tangerines:1  
+
+
+at line #2: add tangerines
+First item: soup:1 
+Last item: tangerines:1 
+
+
+Update at line #3: add turnips
+"hard" number of unique items (i.e. mSizeHard) = 3
+"soft" number of unique items (i.e. mSize) = 3
+
+Testing traversing "hard" inventory:
+soup:1  tangerines:1  turnips:1  
+
+Testing traversing "soft" inventory:
+soup:1  tangerines:1  turnips:1  
+
+
+at line #3: add turnips
+First item: soup:1 
+Last item: turnips:1 
+
+
+Update at line #4: add milk
+"hard" number of unique items (i.e. mSizeHard) = 4
+"soft" number of unique items (i.e. mSize) = 4
+
+Testing traversing "hard" inventory:
+milk:1  soup:1  tangerines:1  turnips:1  
+
+Testing traversing "soft" inventory:
+milk:1  soup:1  tangerines:1  turnips:1  
+
+
+at line #4: add milk
+First item: milk:1 
+Last item: turnips:1 
+
+
+Update at line #5: add apples
+"hard" number of unique items (i.e. mSizeHard) = 5
+"soft" number of unique items (i.e. mSize) = 5
+
+Testing traversing "hard" inventory:
+apples:1  milk:1  soup:1  tangerines:1  turnips:1  
+
+Testing traversing "soft" inventory:
+apples:1  milk:1  soup:1  tangerines:1  turnips:1  
+
+
+at line #5: add apples
+First item: apples:1 
+Last item: turnips:1 
+
+
+Update at line #6: add apples
+"hard" number of unique items (i.e. mSizeHard) = 5
+"soft" number of unique items (i.e. mSize) = 5
+
+Testing traversing "hard" inventory:
+apples:2  milk:1  soup:1  tangerines:1  turnips:1  
+
+Testing traversing "soft" inventory:
+apples:2  milk:1  soup:1  tangerines:1  turnips:1  
+
+
+at line #6: add apples
+First item: apples:2 
+Last item: turnips:1 
+
+
+Update at line #7: add apples
+"hard" number of unique items (i.e. mSizeHard) = 5
+"soft" number of unique items (i.e. mSize) = 5
+
+Testing traversing "hard" inventory:
+apples:3  milk:1  soup:1  tangerines:1  turnips:1  
+
+Testing traversing "soft" inventory:
+apples:3  milk:1  soup:1  tangerines:1  turnips:1  
+
+
+at line #7: add apples
+First item: apples:3 
+Last item: turnips:1 
+
+
+Update at line #8: add bread
+"hard" number of unique items (i.e. mSizeHard) = 6
+"soft" number of unique items (i.e. mSize) = 6
+
+Testing traversing "hard" inventory:
+apples:3  bread:1  milk:1  soup:1  tangerines:1  turnips:1  
+
+Testing traversing "soft" inventory:
+apples:3  bread:1  milk:1  soup:1  tangerines:1  turnips:1  
+
+
+at line #8: add bread
+First item: apples:3 
+Last item: turnips:1 
+
+
+Update at line #9: buy soup
+"hard" number of unique items (i.e. mSizeHard) = 6
+"soft" number of unique items (i.e. mSize) = 5
+
+Testing traversing "hard" inventory:
+apples:3  bread:1  milk:1  soup:0  tangerines:1  turnips:1  
+
+Testing traversing "soft" inventory:
+apples:3  bread:1  milk:1  tangerines:1  turnips:1  
+
+
+at line #9: buy soup
+First item: apples:3 
+Last item: turnips:1 
+
+
+Update at line #10: buy milk
+"hard" number of unique items (i.e. mSizeHard) = 6
+"soft" number of unique items (i.e. mSize) = 4
+
+Testing traversing "hard" inventory:
+apples:3  bread:1  milk:0  soup:0  tangerines:1  turnips:1  
+
+Testing traversing "soft" inventory:
+apples:3  bread:1  tangerines:1  turnips:1  
+
+
+at line #10: buy milk
+First item: apples:3 
+Last item: turnips:1 
+
+
+Update at line #11: buy bread
+"hard" number of unique items (i.e. mSizeHard) = 6
+"soft" number of unique items (i.e. mSize) = 3
+
+Testing traversing "hard" inventory:
+apples:3  bread:0  milk:0  soup:0  tangerines:1  turnips:1  
+
+Testing traversing "soft" inventory:
+apples:3  tangerines:1  turnips:1  
+
+
+at line #11: buy bread
+First item: apples:3 
+Last item: turnips:1 
+
+
+Update at line #12: buy apples
+"hard" number of unique items (i.e. mSizeHard) = 6
+"soft" number of unique items (i.e. mSize) = 3
+
+Testing traversing "hard" inventory:
+apples:2  bread:0  milk:0  soup:0  tangerines:1  turnips:1  
+
+Testing traversing "soft" inventory:
+apples:2  tangerines:1  turnips:1  
+
+
+at line #12: buy apples
+First item: apples:2 
+Last item: turnips:1 
+
+
+Update at line #13: buy tangerines
+"hard" number of unique items (i.e. mSizeHard) = 6
+"soft" number of unique items (i.e. mSize) = 2
+
+Testing traversing "hard" inventory:
+apples:2  bread:0  milk:0  soup:0  tangerines:0  turnips:1  
+
+Testing traversing "soft" inventory:
+apples:2  turnips:1  
+
+
+at line #13: buy tangerines
+First item: apples:2 
+Last item: turnips:1 
+
+
+Update at line #14: buy apples
+"hard" number of unique items (i.e. mSizeHard) = 6
+"soft" number of unique items (i.e. mSize) = 2
+
+Testing traversing "hard" inventory:
+apples:1  bread:0  milk:0  soup:0  tangerines:0  turnips:1  
+
+Testing traversing "soft" inventory:
+apples:1  turnips:1  
+
+
+at line #14: buy apples
+First item: apples:1 
+Last item: turnips:1 
+
+
+Update at line #15: buy apples
+"hard" number of unique items (i.e. mSizeHard) = 6
+"soft" number of unique items (i.e. mSize) = 1
+
+Testing traversing "hard" inventory:
+apples:0  bread:0  milk:0  soup:0  tangerines:0  turnips:1  
+
+Testing traversing "soft" inventory:
+turnips:1  
+
+
+at line #15: buy apples
+First item: turnips:1 
+Last item: turnips:1 
+
+
+Update at line #16: buy turnips
+"hard" number of unique items (i.e. mSizeHard) = 6
+"soft" number of unique items (i.e. mSize) = 0
+
+Testing traversing "hard" inventory:
+apples:0  bread:0  milk:0  soup:0  tangerines:0  turnips:0  
+
+Testing traversing "soft" inventory:
+
+
+
+at line #16: buy turnips
+Warning: minimum element not found!
+Warning: maximum element not found!
+
+Warning: Unable to fulfill request: at line #17: buy apples 
+Warning: Item apples is out of stock.
+
+at line #17: buy apples
+Warning: minimum element not found!
+Warning: maximum element not found!
+
+
+
+
+Final state of inventory:
+"hard" number of unique items (i.e. mSizeHard) = 6
+"soft" number of unique items (i.e. mSize) = 0
+
+Testing traversing "hard" inventory:
+apples:0  bread:0  milk:0  soup:0  tangerines:0  turnips:0  
+
+Testing traversing "soft" inventory:
+
+
+
+Done with SuperMarket.
+-----------------------------------------------------
+################# TEST CASE 5 #######################
+
+Test file: resources/inventory_no_delete.txt 
+
+
+NOTES: Testing only insertion of items into inventory.
+Shows size of hard unique and soft unique is the same
+-----------------------------------------------------
+################# OUTPUT TEST CASE 5 ################
+-----------------------------------------------------
+Test file: resources/inventory_no_delete.txt 
+
+
+Update at line #1: add soup
+"hard" number of unique items (i.e. mSizeHard) = 1
+"soft" number of unique items (i.e. mSize) = 1
+
+Testing traversing "hard" inventory:
+soup:1  
+
+Testing traversing "soft" inventory:
+soup:1  
+
+
+at line #1: add soup
+First item: soup:1 
+Last item: soup:1 
+
+
+Update at line #2: add tangerines
+"hard" number of unique items (i.e. mSizeHard) = 2
+"soft" number of unique items (i.e. mSize) = 2
+
+Testing traversing "hard" inventory:
+soup:1  tangerines:1  
+
+Testing traversing "soft" inventory:
+soup:1  tangerines:1  
+
+
+at line #2: add tangerines
+First item: soup:1 
+Last item: tangerines:1 
+
+
+Update at line #3: add turnips
+"hard" number of unique items (i.e. mSizeHard) = 3
+"soft" number of unique items (i.e. mSize) = 3
+
+Testing traversing "hard" inventory:
+soup:1  tangerines:1  turnips:1  
+
+Testing traversing "soft" inventory:
+soup:1  tangerines:1  turnips:1  
+
+
+at line #3: add turnips
+First item: soup:1 
+Last item: turnips:1 
+
+
+Update at line #4: add milk
+"hard" number of unique items (i.e. mSizeHard) = 4
+"soft" number of unique items (i.e. mSize) = 4
+
+Testing traversing "hard" inventory:
+milk:1  soup:1  tangerines:1  turnips:1  
+
+Testing traversing "soft" inventory:
+milk:1  soup:1  tangerines:1  turnips:1  
+
+
+at line #4: add milk
+First item: milk:1 
+Last item: turnips:1 
+
+
+Update at line #5: add apples
+"hard" number of unique items (i.e. mSizeHard) = 5
+"soft" number of unique items (i.e. mSize) = 5
+
+Testing traversing "hard" inventory:
+apples:1  milk:1  soup:1  tangerines:1  turnips:1  
+
+Testing traversing "soft" inventory:
+apples:1  milk:1  soup:1  tangerines:1  turnips:1  
+
+
+at line #5: add apples
+First item: apples:1 
+Last item: turnips:1 
+
+
+Update at line #6: add apples
+"hard" number of unique items (i.e. mSizeHard) = 5
+"soft" number of unique items (i.e. mSize) = 5
+
+Testing traversing "hard" inventory:
+apples:2  milk:1  soup:1  tangerines:1  turnips:1  
+
+Testing traversing "soft" inventory:
+apples:2  milk:1  soup:1  tangerines:1  turnips:1  
+
+
+at line #6: add apples
+First item: apples:2 
+Last item: turnips:1 
+
+
+Update at line #7: add apples
+"hard" number of unique items (i.e. mSizeHard) = 5
+"soft" number of unique items (i.e. mSize) = 5
+
+Testing traversing "hard" inventory:
+apples:3  milk:1  soup:1  tangerines:1  turnips:1  
+
+Testing traversing "soft" inventory:
+apples:3  milk:1  soup:1  tangerines:1  turnips:1  
+
+
+at line #7: add apples
+First item: apples:3 
+Last item: turnips:1 
+
+
+
+
+Final state of inventory:
+"hard" number of unique items (i.e. mSizeHard) = 5
+"soft" number of unique items (i.e. mSize) = 5
+
+Testing traversing "hard" inventory:
+apples:3  milk:1  soup:1  tangerines:1  turnips:1  
+
+Testing traversing "soft" inventory:
+apples:3  milk:1  soup:1  tangerines:1  turnips:1  
+
+
+Done with SuperMarket.
+-----------------------------------------------------
+################# TEST CASE 6 #######################
+
+Test file: resources/songs_short.txt 
+
+
+NOTES: Testing only insertion of song entry objects into iTunes inventory.
+-----------------------------------------------------
+################# OUTPUT TEST CASE 6 ################
+-----------------------------------------------------
+Welcome! We have over 59600 in FoothillTunes store! 
+Test file: resources/songs_short.txt 
+
+
+Update at line #1: add Solo
+"hard" number of unique songs (i.e. mSizeHard) = 1
+"soft" number of unique songs (i.e. mSize) = 1
+
+Testing traversing "hard" song list:
+Solo, 0:4:18, Sin Bandera, pop, 1 
+
+Testing traversing "soft" song list:
+Solo, 0:4:18, Sin Bandera, pop, 1 
+
+
+at line #1: add Solo
+First title: Solo, 0:4:18, Sin Bandera, pop, 1
+Last title: Solo, 0:4:18, Sin Bandera, pop, 1
+
+
+Update at line #2: add Shadows - Original
+"hard" number of unique songs (i.e. mSizeHard) = 2
+"soft" number of unique songs (i.e. mSize) = 2
+
+Testing traversing "hard" song list:
+Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock, 1 Solo, 0:4:18, Sin Bandera, pop, 1 
+
+Testing traversing "soft" song list:
+Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock, 1 Solo, 0:4:18, Sin Bandera, pop, 1 
+
+
+at line #2: add Shadows - Original
+First title: Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock, 1
+Last title: Solo, 0:4:18, Sin Bandera, pop, 1
+
+
+Update at line #3: add Tom's Diner
+"hard" number of unique songs (i.e. mSizeHard) = 3
+"soft" number of unique songs (i.e. mSize) = 3
+
+Testing traversing "hard" song list:
+Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock, 1 Solo, 0:4:18, Sin Bandera, pop, 1 Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock, 1 
+
+Testing traversing "soft" song list:
+Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock, 1 Solo, 0:4:18, Sin Bandera, pop, 1 Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock, 1 
+
+
+at line #3: add Tom's Diner
+First title: Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock, 1
+Last title: Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock, 1
+
+
+Update at line #4: buy Solo
+"hard" number of unique songs (i.e. mSizeHard) = 3
+"soft" number of unique songs (i.e. mSize) = 2
+
+Testing traversing "hard" song list:
+Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock, 1 Solo, 0:4:18, Sin Bandera, pop, 0 Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock, 1 
+
+Testing traversing "soft" song list:
+Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock, 1 Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock, 1 
+
+
+at line #4: buy Solo
+First title: Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock, 1
+Last title: Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock, 1
+
+Warning: Unable to fulfill request: at line #5: buy Luka 
+Warning: Item Luka is out of stock.
+
+at line #5: buy Luka
+First title: Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock, 1
+Last title: Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock, 1
+
+
+Update at line #6: add Take Me Away
+"hard" number of unique songs (i.e. mSizeHard) = 4
+"soft" number of unique songs (i.e. mSize) = 3
+
+Testing traversing "hard" song list:
+Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock, 1 Solo, 0:4:18, Sin Bandera, pop, 0 Take Me Away, 0:4:6, Malachi, pop, 1 Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock, 1 
+
+Testing traversing "soft" song list:
+Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock, 1 Take Me Away, 0:4:6, Malachi, pop, 1 Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock, 1 
+
+
+at line #6: add Take Me Away
+First title: Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock, 1
+Last title: Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock, 1
+
+
+Update at line #7: add Here With Me
+"hard" number of unique songs (i.e. mSizeHard) = 5
+"soft" number of unique songs (i.e. mSize) = 4
+
+Testing traversing "hard" song list:
+Here With Me, 0:6:4, Dido, classic pop and rock, 1 Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock, 1 Solo, 0:4:18, Sin Bandera, pop, 0 Take Me Away, 0:4:6, Malachi, pop, 1 Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock, 1 
+
+Testing traversing "soft" song list:
+Here With Me, 0:6:4, Dido, classic pop and rock, 1 Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock, 1 Take Me Away, 0:4:6, Malachi, pop, 1 Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock, 1 
+
+
+at line #7: add Here With Me
+First title: Here With Me, 0:6:4, Dido, classic pop and rock, 1
+Last title: Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock, 1
+
+
+Update at line #8: add Nuvole Bianche
+"hard" number of unique songs (i.e. mSizeHard) = 6
+"soft" number of unique songs (i.e. mSize) = 5
+
+Testing traversing "hard" song list:
+Here With Me, 0:6:4, Dido, classic pop and rock, 1 Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical, 1 Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock, 1 Solo, 0:4:18, Sin Bandera, pop, 0 Take Me Away, 0:4:6, Malachi, pop, 1 Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock, 1 
+
+Testing traversing "soft" song list:
+Here With Me, 0:6:4, Dido, classic pop and rock, 1 Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical, 1 Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock, 1 Take Me Away, 0:4:6, Malachi, pop, 1 Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock, 1 
+
+
+at line #8: add Nuvole Bianche
+First title: Here With Me, 0:6:4, Dido, classic pop and rock, 1
+Last title: Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock, 1
+
+
+Update at line #9: add Luka
+"hard" number of unique songs (i.e. mSizeHard) = 7
+"soft" number of unique songs (i.e. mSize) = 6
+
+Testing traversing "hard" song list:
+Here With Me, 0:6:4, Dido, classic pop and rock, 1 Luka, 0:3:52, Suzanne Vega, classic pop and rock, 1 Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical, 1 Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock, 1 Solo, 0:4:18, Sin Bandera, pop, 0 Take Me Away, 0:4:6, Malachi, pop, 1 Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock, 1 
+
+Testing traversing "soft" song list:
+Here With Me, 0:6:4, Dido, classic pop and rock, 1 Luka, 0:3:52, Suzanne Vega, classic pop and rock, 1 Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical, 1 Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock, 1 Take Me Away, 0:4:6, Malachi, pop, 1 Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock, 1 
+
+
+at line #9: add Luka
+First title: Here With Me, 0:6:4, Dido, classic pop and rock, 1
+Last title: Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock, 1
+
+
+Update at line #10: add Stoned
+"hard" number of unique songs (i.e. mSizeHard) = 8
+"soft" number of unique songs (i.e. mSize) = 7
+
+Testing traversing "hard" song list:
+Here With Me, 0:6:4, Dido, classic pop and rock, 1 Luka, 0:3:52, Suzanne Vega, classic pop and rock, 1 Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical, 1 Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock, 1 Solo, 0:4:18, Sin Bandera, pop, 0 Stoned, 0:5:56, Dido, classic pop and rock, 1 Take Me Away, 0:4:6, Malachi, pop, 1 Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock, 1 
+
+Testing traversing "soft" song list:
+Here With Me, 0:6:4, Dido, classic pop and rock, 1 Luka, 0:3:52, Suzanne Vega, classic pop and rock, 1 Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical, 1 Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock, 1 Stoned, 0:5:56, Dido, classic pop and rock, 1 Take Me Away, 0:4:6, Malachi, pop, 1 Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock, 1 
+
+
+at line #10: add Stoned
+First title: Here With Me, 0:6:4, Dido, classic pop and rock, 1
+Last title: Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock, 1
+
+
+Update at line #11: add Get Happy
+"hard" number of unique songs (i.e. mSizeHard) = 9
+"soft" number of unique songs (i.e. mSize) = 8
+
+Testing traversing "hard" song list:
+Get Happy, 0:2:40, Clare Teal, jazz and blues, 1 Here With Me, 0:6:4, Dido, classic pop and rock, 1 Luka, 0:3:52, Suzanne Vega, classic pop and rock, 1 Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical, 1 Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock, 1 Solo, 0:4:18, Sin Bandera, pop, 0 Stoned, 0:5:56, Dido, classic pop and rock, 1 Take Me Away, 0:4:6, Malachi, pop, 1 Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock, 1 
+
+Testing traversing "soft" song list:
+Get Happy, 0:2:40, Clare Teal, jazz and blues, 1 Here With Me, 0:6:4, Dido, classic pop and rock, 1 Luka, 0:3:52, Suzanne Vega, classic pop and rock, 1 Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical, 1 Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock, 1 Stoned, 0:5:56, Dido, classic pop and rock, 1 Take Me Away, 0:4:6, Malachi, pop, 1 Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock, 1 
+
+
+at line #11: add Get Happy
+First title: Get Happy, 0:2:40, Clare Teal, jazz and blues, 1
+Last title: Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock, 1
+
+
+Update at line #12: add We Belong
+"hard" number of unique songs (i.e. mSizeHard) = 10
+"soft" number of unique songs (i.e. mSize) = 9
+
+Testing traversing "hard" song list:
+Get Happy, 0:2:40, Clare Teal, jazz and blues, 1 Here With Me, 0:6:4, Dido, classic pop and rock, 1 Luka, 0:3:52, Suzanne Vega, classic pop and rock, 1 Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical, 1 Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock, 1 Solo, 0:4:18, Sin Bandera, pop, 0 Stoned, 0:5:56, Dido, classic pop and rock, 1 Take Me Away, 0:4:6, Malachi, pop, 1 Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock, 1 We Belong, 0:7:14, DT8 Project, dance and electronica, 1 
+
+Testing traversing "soft" song list:
+Get Happy, 0:2:40, Clare Teal, jazz and blues, 1 Here With Me, 0:6:4, Dido, classic pop and rock, 1 Luka, 0:3:52, Suzanne Vega, classic pop and rock, 1 Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical, 1 Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock, 1 Stoned, 0:5:56, Dido, classic pop and rock, 1 Take Me Away, 0:4:6, Malachi, pop, 1 Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock, 1 We Belong, 0:7:14, DT8 Project, dance and electronica, 1 
+
+
+at line #12: add We Belong
+First title: Get Happy, 0:2:40, Clare Teal, jazz and blues, 1
+Last title: We Belong, 0:7:14, DT8 Project, dance and electronica, 1
+
+
+Update at line #13: add Let's Dance
+"hard" number of unique songs (i.e. mSizeHard) = 11
+"soft" number of unique songs (i.e. mSize) = 10
+
+Testing traversing "hard" song list:
+Get Happy, 0:2:40, Clare Teal, jazz and blues, 1 Here With Me, 0:6:4, Dido, classic pop and rock, 1 Let's Dance, 0:4:7, David Bowie, soul and reggae, 1 Luka, 0:3:52, Suzanne Vega, classic pop and rock, 1 Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical, 1 Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock, 1 Solo, 0:4:18, Sin Bandera, pop, 0 Stoned, 0:5:56, Dido, classic pop and rock, 1 Take Me Away, 0:4:6, Malachi, pop, 1 Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock, 1 We Belong, 0:7:14, DT8 Project, dance and electronica, 1 
+
+Testing traversing "soft" song list:
+Get Happy, 0:2:40, Clare Teal, jazz and blues, 1 Here With Me, 0:6:4, Dido, classic pop and rock, 1 Let's Dance, 0:4:7, David Bowie, soul and reggae, 1 Luka, 0:3:52, Suzanne Vega, classic pop and rock, 1 Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical, 1 Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock, 1 Stoned, 0:5:56, Dido, classic pop and rock, 1 Take Me Away, 0:4:6, Malachi, pop, 1 Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock, 1 We Belong, 0:7:14, DT8 Project, dance and electronica, 1 
+
+
+at line #13: add Let's Dance
+First title: Get Happy, 0:2:40, Clare Teal, jazz and blues, 1
+Last title: We Belong, 0:7:14, DT8 Project, dance and electronica, 1
+
+
+Update at line #14: add Oh What a Feeling
+"hard" number of unique songs (i.e. mSizeHard) = 12
+"soft" number of unique songs (i.e. mSize) = 11
+
+Testing traversing "hard" song list:
+Get Happy, 0:2:40, Clare Teal, jazz and blues, 1 Here With Me, 0:6:4, Dido, classic pop and rock, 1 Let's Dance, 0:4:7, David Bowie, soul and reggae, 1 Luka, 0:3:52, Suzanne Vega, classic pop and rock, 1 Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical, 1 Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock, 1 Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock, 1 Solo, 0:4:18, Sin Bandera, pop, 0 Stoned, 0:5:56, Dido, classic pop and rock, 1 Take Me Away, 0:4:6, Malachi, pop, 1 Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock, 1 We Belong, 0:7:14, DT8 Project, dance and electronica, 1 
+
+Testing traversing "soft" song list:
+Get Happy, 0:2:40, Clare Teal, jazz and blues, 1 Here With Me, 0:6:4, Dido, classic pop and rock, 1 Let's Dance, 0:4:7, David Bowie, soul and reggae, 1 Luka, 0:3:52, Suzanne Vega, classic pop and rock, 1 Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical, 1 Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock, 1 Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock, 1 Stoned, 0:5:56, Dido, classic pop and rock, 1 Take Me Away, 0:4:6, Malachi, pop, 1 Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock, 1 We Belong, 0:7:14, DT8 Project, dance and electronica, 1 
+
+
+at line #14: add Oh What a Feeling
+First title: Get Happy, 0:2:40, Clare Teal, jazz and blues, 1
+Last title: We Belong, 0:7:14, DT8 Project, dance and electronica, 1
+
+
+Update at line #15: add Stairway To The Stars
+"hard" number of unique songs (i.e. mSizeHard) = 13
+"soft" number of unique songs (i.e. mSize) = 12
+
+Testing traversing "hard" song list:
+Get Happy, 0:2:40, Clare Teal, jazz and blues, 1 Here With Me, 0:6:4, Dido, classic pop and rock, 1 Let's Dance, 0:4:7, David Bowie, soul and reggae, 1 Luka, 0:3:52, Suzanne Vega, classic pop and rock, 1 Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical, 1 Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock, 1 Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock, 1 Solo, 0:4:18, Sin Bandera, pop, 0 Stairway To The Stars, 0:3:43, Blue Oyster Cult, classic pop and rock, 1 Stoned, 0:5:56, Dido, classic pop and rock, 1 Take Me Away, 0:4:6, Malachi, pop, 1 Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock, 1 We Belong, 0:7:14, DT8 Project, dance and electronica, 1 
+
+Testing traversing "soft" song list:
+Get Happy, 0:2:40, Clare Teal, jazz and blues, 1 Here With Me, 0:6:4, Dido, classic pop and rock, 1 Let's Dance, 0:4:7, David Bowie, soul and reggae, 1 Luka, 0:3:52, Suzanne Vega, classic pop and rock, 1 Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical, 1 Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock, 1 Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock, 1 Stairway To The Stars, 0:3:43, Blue Oyster Cult, classic pop and rock, 1 Stoned, 0:5:56, Dido, classic pop and rock, 1 Take Me Away, 0:4:6, Malachi, pop, 1 Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock, 1 We Belong, 0:7:14, DT8 Project, dance and electronica, 1 
+
+
+at line #15: add Stairway To The Stars
+First title: Get Happy, 0:2:40, Clare Teal, jazz and blues, 1
+Last title: We Belong, 0:7:14, DT8 Project, dance and electronica, 1
+
+
+Update at line #16: add Separate Ways (Worlds Apart)
+"hard" number of unique songs (i.e. mSizeHard) = 14
+"soft" number of unique songs (i.e. mSize) = 13
+
+Testing traversing "hard" song list:
+Get Happy, 0:2:40, Clare Teal, jazz and blues, 1 Here With Me, 0:6:4, Dido, classic pop and rock, 1 Let's Dance, 0:4:7, David Bowie, soul and reggae, 1 Luka, 0:3:52, Suzanne Vega, classic pop and rock, 1 Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical, 1 Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock, 1 Separate Ways (Worlds Apart), 0:5:25, Journey, classic pop and rock, 1 Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock, 1 Solo, 0:4:18, Sin Bandera, pop, 0 Stairway To The Stars, 0:3:43, Blue Oyster Cult, classic pop and rock, 1 Stoned, 0:5:56, Dido, classic pop and rock, 1 Take Me Away, 0:4:6, Malachi, pop, 1 Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock, 1 We Belong, 0:7:14, DT8 Project, dance and electronica, 1 
+
+Testing traversing "soft" song list:
+Get Happy, 0:2:40, Clare Teal, jazz and blues, 1 Here With Me, 0:6:4, Dido, classic pop and rock, 1 Let's Dance, 0:4:7, David Bowie, soul and reggae, 1 Luka, 0:3:52, Suzanne Vega, classic pop and rock, 1 Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical, 1 Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock, 1 Separate Ways (Worlds Apart), 0:5:25, Journey, classic pop and rock, 1 Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock, 1 Stairway To The Stars, 0:3:43, Blue Oyster Cult, classic pop and rock, 1 Stoned, 0:5:56, Dido, classic pop and rock, 1 Take Me Away, 0:4:6, Malachi, pop, 1 Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock, 1 We Belong, 0:7:14, DT8 Project, dance and electronica, 1 
+
+
+at line #16: add Separate Ways (Worlds Apart)
+First title: Get Happy, 0:2:40, Clare Teal, jazz and blues, 1
+Last title: We Belong, 0:7:14, DT8 Project, dance and electronica, 1
+
+
+Update at line #17: add Road Home
+"hard" number of unique songs (i.e. mSizeHard) = 15
+"soft" number of unique songs (i.e. mSize) = 14
+
+Testing traversing "hard" song list:
+Get Happy, 0:2:40, Clare Teal, jazz and blues, 1 Here With Me, 0:6:4, Dido, classic pop and rock, 1 Let's Dance, 0:4:7, David Bowie, soul and reggae, 1 Luka, 0:3:52, Suzanne Vega, classic pop and rock, 1 Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical, 1 Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock, 1 Road Home, 0:5:8, The String Cheese Incident, folk, 1 Separate Ways (Worlds Apart), 0:5:25, Journey, classic pop and rock, 1 Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock, 1 Solo, 0:4:18, Sin Bandera, pop, 0 Stairway To The Stars, 0:3:43, Blue Oyster Cult, classic pop and rock, 1 Stoned, 0:5:56, Dido, classic pop and rock, 1 Take Me Away, 0:4:6, Malachi, pop, 1 Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock, 1 We Belong, 0:7:14, DT8 Project, dance and electronica, 1 
+
+Testing traversing "soft" song list:
+Get Happy, 0:2:40, Clare Teal, jazz and blues, 1 Here With Me, 0:6:4, Dido, classic pop and rock, 1 Let's Dance, 0:4:7, David Bowie, soul and reggae, 1 Luka, 0:3:52, Suzanne Vega, classic pop and rock, 1 Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical, 1 Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock, 1 Road Home, 0:5:8, The String Cheese Incident, folk, 1 Separate Ways (Worlds Apart), 0:5:25, Journey, classic pop and rock, 1 Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock, 1 Stairway To The Stars, 0:3:43, Blue Oyster Cult, classic pop and rock, 1 Stoned, 0:5:56, Dido, classic pop and rock, 1 Take Me Away, 0:4:6, Malachi, pop, 1 Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock, 1 We Belong, 0:7:14, DT8 Project, dance and electronica, 1 
+
+
+at line #17: add Road Home
+First title: Get Happy, 0:2:40, Clare Teal, jazz and blues, 1
+Last title: We Belong, 0:7:14, DT8 Project, dance and electronica, 1
+
+
+Update at line #18: add Traffic
+"hard" number of unique songs (i.e. mSizeHard) = 16
+"soft" number of unique songs (i.e. mSize) = 15
+
+Testing traversing "hard" song list:
+Get Happy, 0:2:40, Clare Teal, jazz and blues, 1 Here With Me, 0:6:4, Dido, classic pop and rock, 1 Let's Dance, 0:4:7, David Bowie, soul and reggae, 1 Luka, 0:3:52, Suzanne Vega, classic pop and rock, 1 Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical, 1 Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock, 1 Road Home, 0:5:8, The String Cheese Incident, folk, 1 Separate Ways (Worlds Apart), 0:5:25, Journey, classic pop and rock, 1 Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock, 1 Solo, 0:4:18, Sin Bandera, pop, 0 Stairway To The Stars, 0:3:43, Blue Oyster Cult, classic pop and rock, 1 Stoned, 0:5:56, Dido, classic pop and rock, 1 Take Me Away, 0:4:6, Malachi, pop, 1 Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock, 1 Traffic, 0:4:5, Dawn Landes, classic pop and rock, 1 We Belong, 0:7:14, DT8 Project, dance and electronica, 1 
+
+Testing traversing "soft" song list:
+Get Happy, 0:2:40, Clare Teal, jazz and blues, 1 Here With Me, 0:6:4, Dido, classic pop and rock, 1 Let's Dance, 0:4:7, David Bowie, soul and reggae, 1 Luka, 0:3:52, Suzanne Vega, classic pop and rock, 1 Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical, 1 Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock, 1 Road Home, 0:5:8, The String Cheese Incident, folk, 1 Separate Ways (Worlds Apart), 0:5:25, Journey, classic pop and rock, 1 Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock, 1 Stairway To The Stars, 0:3:43, Blue Oyster Cult, classic pop and rock, 1 Stoned, 0:5:56, Dido, classic pop and rock, 1 Take Me Away, 0:4:6, Malachi, pop, 1 Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock, 1 Traffic, 0:4:5, Dawn Landes, classic pop and rock, 1 We Belong, 0:7:14, DT8 Project, dance and electronica, 1 
+
+
+at line #18: add Traffic
+First title: Get Happy, 0:2:40, Clare Teal, jazz and blues, 1
+Last title: We Belong, 0:7:14, DT8 Project, dance and electronica, 1
+
+
+Update at line #19: buy Oh What a Feeling
+"hard" number of unique songs (i.e. mSizeHard) = 16
+"soft" number of unique songs (i.e. mSize) = 14
+
+Testing traversing "hard" song list:
+Get Happy, 0:2:40, Clare Teal, jazz and blues, 1 Here With Me, 0:6:4, Dido, classic pop and rock, 1 Let's Dance, 0:4:7, David Bowie, soul and reggae, 1 Luka, 0:3:52, Suzanne Vega, classic pop and rock, 1 Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical, 1 Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock, 0 Road Home, 0:5:8, The String Cheese Incident, folk, 1 Separate Ways (Worlds Apart), 0:5:25, Journey, classic pop and rock, 1 Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock, 1 Solo, 0:4:18, Sin Bandera, pop, 0 Stairway To The Stars, 0:3:43, Blue Oyster Cult, classic pop and rock, 1 Stoned, 0:5:56, Dido, classic pop and rock, 1 Take Me Away, 0:4:6, Malachi, pop, 1 Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock, 1 Traffic, 0:4:5, Dawn Landes, classic pop and rock, 1 We Belong, 0:7:14, DT8 Project, dance and electronica, 1 
+
+Testing traversing "soft" song list:
+Get Happy, 0:2:40, Clare Teal, jazz and blues, 1 Here With Me, 0:6:4, Dido, classic pop and rock, 1 Let's Dance, 0:4:7, David Bowie, soul and reggae, 1 Luka, 0:3:52, Suzanne Vega, classic pop and rock, 1 Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical, 1 Road Home, 0:5:8, The String Cheese Incident, folk, 1 Separate Ways (Worlds Apart), 0:5:25, Journey, classic pop and rock, 1 Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock, 1 Stairway To The Stars, 0:3:43, Blue Oyster Cult, classic pop and rock, 1 Stoned, 0:5:56, Dido, classic pop and rock, 1 Take Me Away, 0:4:6, Malachi, pop, 1 Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock, 1 Traffic, 0:4:5, Dawn Landes, classic pop and rock, 1 We Belong, 0:7:14, DT8 Project, dance and electronica, 1 
+
+
+at line #19: buy Oh What a Feeling
+First title: Get Happy, 0:2:40, Clare Teal, jazz and blues, 1
+Last title: We Belong, 0:7:14, DT8 Project, dance and electronica, 1
+
+
+Update at line #20: buy Luka
+"hard" number of unique songs (i.e. mSizeHard) = 16
+"soft" number of unique songs (i.e. mSize) = 13
+
+Testing traversing "hard" song list:
+Get Happy, 0:2:40, Clare Teal, jazz and blues, 1 Here With Me, 0:6:4, Dido, classic pop and rock, 1 Let's Dance, 0:4:7, David Bowie, soul and reggae, 1 Luka, 0:3:52, Suzanne Vega, classic pop and rock, 0 Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical, 1 Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock, 0 Road Home, 0:5:8, The String Cheese Incident, folk, 1 Separate Ways (Worlds Apart), 0:5:25, Journey, classic pop and rock, 1 Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock, 1 Solo, 0:4:18, Sin Bandera, pop, 0 Stairway To The Stars, 0:3:43, Blue Oyster Cult, classic pop and rock, 1 Stoned, 0:5:56, Dido, classic pop and rock, 1 Take Me Away, 0:4:6, Malachi, pop, 1 Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock, 1 Traffic, 0:4:5, Dawn Landes, classic pop and rock, 1 We Belong, 0:7:14, DT8 Project, dance and electronica, 1 
+
+Testing traversing "soft" song list:
+Get Happy, 0:2:40, Clare Teal, jazz and blues, 1 Here With Me, 0:6:4, Dido, classic pop and rock, 1 Let's Dance, 0:4:7, David Bowie, soul and reggae, 1 Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical, 1 Road Home, 0:5:8, The String Cheese Incident, folk, 1 Separate Ways (Worlds Apart), 0:5:25, Journey, classic pop and rock, 1 Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock, 1 Stairway To The Stars, 0:3:43, Blue Oyster Cult, classic pop and rock, 1 Stoned, 0:5:56, Dido, classic pop and rock, 1 Take Me Away, 0:4:6, Malachi, pop, 1 Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock, 1 Traffic, 0:4:5, Dawn Landes, classic pop and rock, 1 We Belong, 0:7:14, DT8 Project, dance and electronica, 1 
+
+
+at line #20: buy Luka
+First title: Get Happy, 0:2:40, Clare Teal, jazz and blues, 1
+Last title: We Belong, 0:7:14, DT8 Project, dance and electronica, 1
+
+
+Update at line #21: add Solo
+"hard" number of unique songs (i.e. mSizeHard) = 16
+"soft" number of unique songs (i.e. mSize) = 14
+
+Testing traversing "hard" song list:
+Get Happy, 0:2:40, Clare Teal, jazz and blues, 1 Here With Me, 0:6:4, Dido, classic pop and rock, 1 Let's Dance, 0:4:7, David Bowie, soul and reggae, 1 Luka, 0:3:52, Suzanne Vega, classic pop and rock, 0 Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical, 1 Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock, 0 Road Home, 0:5:8, The String Cheese Incident, folk, 1 Separate Ways (Worlds Apart), 0:5:25, Journey, classic pop and rock, 1 Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock, 1 Solo, 0:4:18, Sin Bandera, pop, 1 Stairway To The Stars, 0:3:43, Blue Oyster Cult, classic pop and rock, 1 Stoned, 0:5:56, Dido, classic pop and rock, 1 Take Me Away, 0:4:6, Malachi, pop, 1 Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock, 1 Traffic, 0:4:5, Dawn Landes, classic pop and rock, 1 We Belong, 0:7:14, DT8 Project, dance and electronica, 1 
+
+Testing traversing "soft" song list:
+Get Happy, 0:2:40, Clare Teal, jazz and blues, 1 Here With Me, 0:6:4, Dido, classic pop and rock, 1 Let's Dance, 0:4:7, David Bowie, soul and reggae, 1 Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical, 1 Road Home, 0:5:8, The String Cheese Incident, folk, 1 Separate Ways (Worlds Apart), 0:5:25, Journey, classic pop and rock, 1 Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock, 1 Solo, 0:4:18, Sin Bandera, pop, 1 Stairway To The Stars, 0:3:43, Blue Oyster Cult, classic pop and rock, 1 Stoned, 0:5:56, Dido, classic pop and rock, 1 Take Me Away, 0:4:6, Malachi, pop, 1 Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock, 1 Traffic, 0:4:5, Dawn Landes, classic pop and rock, 1 We Belong, 0:7:14, DT8 Project, dance and electronica, 1 
+
+
+at line #21: add Solo
+First title: Get Happy, 0:2:40, Clare Teal, jazz and blues, 1
+Last title: We Belong, 0:7:14, DT8 Project, dance and electronica, 1
+
+
+
+
+Final state of tunes store:
+"hard" number of unique songs (i.e. mSizeHard) = 16
+"soft" number of unique songs (i.e. mSize) = 14
+
+Testing traversing "hard" song list:
+Get Happy, 0:2:40, Clare Teal, jazz and blues, 1 Here With Me, 0:6:4, Dido, classic pop and rock, 1 Let's Dance, 0:4:7, David Bowie, soul and reggae, 1 Luka, 0:3:52, Suzanne Vega, classic pop and rock, 0 Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical, 1 Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock, 0 Road Home, 0:5:8, The String Cheese Incident, folk, 1 Separate Ways (Worlds Apart), 0:5:25, Journey, classic pop and rock, 1 Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock, 1 Solo, 0:4:18, Sin Bandera, pop, 1 Stairway To The Stars, 0:3:43, Blue Oyster Cult, classic pop and rock, 1 Stoned, 0:5:56, Dido, classic pop and rock, 1 Take Me Away, 0:4:6, Malachi, pop, 1 Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock, 1 Traffic, 0:4:5, Dawn Landes, classic pop and rock, 1 We Belong, 0:7:14, DT8 Project, dance and electronica, 1 
+
+Testing traversing "soft" song list:
+Get Happy, 0:2:40, Clare Teal, jazz and blues, 1 Here With Me, 0:6:4, Dido, classic pop and rock, 1 Let's Dance, 0:4:7, David Bowie, soul and reggae, 1 Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical, 1 Road Home, 0:5:8, The String Cheese Incident, folk, 1 Separate Ways (Worlds Apart), 0:5:25, Journey, classic pop and rock, 1 Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock, 1 Solo, 0:4:18, Sin Bandera, pop, 1 Stairway To The Stars, 0:3:43, Blue Oyster Cult, classic pop and rock, 1 Stoned, 0:5:56, Dido, classic pop and rock, 1 Take Me Away, 0:4:6, Malachi, pop, 1 Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock, 1 Traffic, 0:4:5, Dawn Landes, classic pop and rock, 1 We Belong, 0:7:14, DT8 Project, dance and electronica, 1 
+
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 164 ms : 551019 ns
+
+Done with FoothillTunesStore.
+
+-----------------------------------------------------
+################# TEST CASE 7 #######################
+
+Test file: resources/inventory_test_deletion_all.txt 
+
+
+NOTES: Testing deletion of node with 2 children, 1 child and no children
+All tests traversals
+-----------------------------------------------------
+################# OUTPUT TEST CASE 7 ################
+-----------------------------------------------------
+Test file: resources/inventory_test_deletion_all.txt 
+
+
+Update at line #1: add soup
+"hard" number of unique items (i.e. mSizeHard) = 1
+"soft" number of unique items (i.e. mSize) = 1
+
+Testing traversing "hard" inventory:
+soup:1  
+
+Testing traversing "soft" inventory:
+soup:1  
+
+
+at line #1: add soup
+First item: soup:1 
+Last item: soup:1 
+
+
+Update at line #2: add milk
+"hard" number of unique items (i.e. mSizeHard) = 2
+"soft" number of unique items (i.e. mSize) = 2
+
+Testing traversing "hard" inventory:
+milk:1  soup:1  
+
+Testing traversing "soft" inventory:
+milk:1  soup:1  
+
+
+at line #2: add milk
+First item: milk:1 
+Last item: soup:1 
+
+
+Update at line #3: add star
+"hard" number of unique items (i.e. mSizeHard) = 3
+"soft" number of unique items (i.e. mSize) = 3
+
+Testing traversing "hard" inventory:
+milk:1  soup:1  star:1  
+
+Testing traversing "soft" inventory:
+milk:1  soup:1  star:1  
+
+
+at line #3: add star
+First item: milk:1 
+Last item: star:1 
+
+
+Update at line #4: add tangerine
+"hard" number of unique items (i.e. mSizeHard) = 4
+"soft" number of unique items (i.e. mSize) = 4
+
+Testing traversing "hard" inventory:
+milk:1  soup:1  star:1  tangerine:1  
+
+Testing traversing "soft" inventory:
+milk:1  soup:1  star:1  tangerine:1  
+
+
+at line #4: add tangerine
+First item: milk:1 
+Last item: tangerine:1 
+
+
+Update at line #5: add apple
+"hard" number of unique items (i.e. mSizeHard) = 5
+"soft" number of unique items (i.e. mSize) = 5
+
+Testing traversing "hard" inventory:
+apple:1  milk:1  soup:1  star:1  tangerine:1  
+
+Testing traversing "soft" inventory:
+apple:1  milk:1  soup:1  star:1  tangerine:1  
+
+
+at line #5: add apple
+First item: apple:1 
+Last item: tangerine:1 
+
+
+Update at line #6: add pasta
+"hard" number of unique items (i.e. mSizeHard) = 6
+"soft" number of unique items (i.e. mSize) = 6
+
+Testing traversing "hard" inventory:
+apple:1  milk:1  pasta:1  soup:1  star:1  tangerine:1  
+
+Testing traversing "soft" inventory:
+apple:1  milk:1  pasta:1  soup:1  star:1  tangerine:1  
+
+
+at line #6: add pasta
+First item: apple:1 
+Last item: tangerine:1 
+
+
+Update at line #7: add tangerine
+"hard" number of unique items (i.e. mSizeHard) = 6
+"soft" number of unique items (i.e. mSize) = 6
+
+Testing traversing "hard" inventory:
+apple:1  milk:1  pasta:1  soup:1  star:1  tangerine:2  
+
+Testing traversing "soft" inventory:
+apple:1  milk:1  pasta:1  soup:1  star:1  tangerine:2  
+
+
+at line #7: add tangerine
+First item: apple:1 
+Last item: tangerine:2 
+
+
+Update at line #8: add turnip
+"hard" number of unique items (i.e. mSizeHard) = 7
+"soft" number of unique items (i.e. mSize) = 7
+
+Testing traversing "hard" inventory:
+apple:1  milk:1  pasta:1  soup:1  star:1  tangerine:2  turnip:1  
+
+Testing traversing "soft" inventory:
+apple:1  milk:1  pasta:1  soup:1  star:1  tangerine:2  turnip:1  
+
+
+at line #8: add turnip
+First item: apple:1 
+Last item: turnip:1 
+
+
+Update at line #9: add bread
+"hard" number of unique items (i.e. mSizeHard) = 8
+"soft" number of unique items (i.e. mSize) = 8
+
+Testing traversing "hard" inventory:
+apple:1  bread:1  milk:1  pasta:1  soup:1  star:1  tangerine:2  turnip:1  
+
+Testing traversing "soft" inventory:
+apple:1  bread:1  milk:1  pasta:1  soup:1  star:1  tangerine:2  turnip:1  
+
+
+at line #9: add bread
+First item: apple:1 
+Last item: turnip:1 
+
+
+Update at line #10: add avocado
+"hard" number of unique items (i.e. mSizeHard) = 9
+"soft" number of unique items (i.e. mSize) = 9
+
+Testing traversing "hard" inventory:
+apple:1  avocado:1  bread:1  milk:1  pasta:1  soup:1  star:1  tangerine:2  turnip:1  
+
+Testing traversing "soft" inventory:
+apple:1  avocado:1  bread:1  milk:1  pasta:1  soup:1  star:1  tangerine:2  turnip:1  
+
+
+at line #10: add avocado
+First item: apple:1 
+Last item: turnip:1 
+
+
+Update at line #11: buy apple
+"hard" number of unique items (i.e. mSizeHard) = 9
+"soft" number of unique items (i.e. mSize) = 8
+
+Testing traversing "hard" inventory:
+apple:0  avocado:1  bread:1  milk:1  pasta:1  soup:1  star:1  tangerine:2  turnip:1  
+
+Testing traversing "soft" inventory:
+avocado:1  bread:1  milk:1  pasta:1  soup:1  star:1  tangerine:2  turnip:1  
+
+
+at line #11: buy apple
+First item: avocado:1 
+Last item: turnip:1 
+
+
+Update at line #12: buy star
+"hard" number of unique items (i.e. mSizeHard) = 9
+"soft" number of unique items (i.e. mSize) = 7
+
+Testing traversing "hard" inventory:
+apple:0  avocado:1  bread:1  milk:1  pasta:1  soup:1  star:0  tangerine:2  turnip:1  
+
+Testing traversing "soft" inventory:
+avocado:1  bread:1  milk:1  pasta:1  soup:1  tangerine:2  turnip:1  
+
+
+at line #12: buy star
+First item: avocado:1 
+Last item: turnip:1 
+
+
+Update at line #13: buy milk
+"hard" number of unique items (i.e. mSizeHard) = 9
+"soft" number of unique items (i.e. mSize) = 6
+
+Testing traversing "hard" inventory:
+apple:0  avocado:1  bread:1  milk:0  pasta:1  soup:1  star:0  tangerine:2  turnip:1  
+
+Testing traversing "soft" inventory:
+avocado:1  bread:1  pasta:1  soup:1  tangerine:2  turnip:1  
+
+
+at line #13: buy milk
+First item: avocado:1 
+Last item: turnip:1 
+
+
+Update at line #14: buy avocado
+"hard" number of unique items (i.e. mSizeHard) = 9
+"soft" number of unique items (i.e. mSize) = 5
+
+Testing traversing "hard" inventory:
+apple:0  avocado:0  bread:1  milk:0  pasta:1  soup:1  star:0  tangerine:2  turnip:1  
+
+Testing traversing "soft" inventory:
+bread:1  pasta:1  soup:1  tangerine:2  turnip:1  
+
+
+at line #14: buy avocado
+First item: bread:1 
+Last item: turnip:1 
+
+
+
+
+Final state of inventory:
+"hard" number of unique items (i.e. mSizeHard) = 9
+"soft" number of unique items (i.e. mSize) = 5
+
+Testing traversing "hard" inventory:
+apple:0  avocado:0  bread:1  milk:0  pasta:1  soup:1  star:0  tangerine:2  turnip:1  
+
+Testing traversing "soft" inventory:
+bread:1  pasta:1  soup:1  tangerine:2  turnip:1  
+
+
+Done with SuperMarket.
+-----------------------------------------------------
+################# TEST CASE 8 #######################
+
+Test file: resources/songs_all_delete.txt 
+
+
+NOTES: Testing deletion and insertion of songs
+-----------------------------------------------------
+################# OUTPUT TEST CASE 8 ################
+-----------------------------------------------------
+Welcome! We have over 59600 in FoothillTunes store! 
+Test file: resources/songs_all_delete.txt 
+
+
+Update at line #1: add Solo
+"hard" number of unique songs (i.e. mSizeHard) = 1
+"soft" number of unique songs (i.e. mSize) = 1
+
+Testing traversing "hard" song list:
+Solo, 0:4:18, Sin Bandera, pop, 1 
+
+Testing traversing "soft" song list:
+Solo, 0:4:18, Sin Bandera, pop, 1 
+
+
+at line #1: add Solo
+First title: Solo, 0:4:18, Sin Bandera, pop, 1
+Last title: Solo, 0:4:18, Sin Bandera, pop, 1
+
+
+Update at line #2: add Solo
+"hard" number of unique songs (i.e. mSizeHard) = 1
+"soft" number of unique songs (i.e. mSize) = 1
+
+Testing traversing "hard" song list:
+Solo, 0:4:18, Sin Bandera, pop, 2 
+
+Testing traversing "soft" song list:
+Solo, 0:4:18, Sin Bandera, pop, 2 
+
+
+at line #2: add Solo
+First title: Solo, 0:4:18, Sin Bandera, pop, 2
+Last title: Solo, 0:4:18, Sin Bandera, pop, 2
+
+
+Update at line #3: add Solo
+"hard" number of unique songs (i.e. mSizeHard) = 1
+"soft" number of unique songs (i.e. mSize) = 1
+
+Testing traversing "hard" song list:
+Solo, 0:4:18, Sin Bandera, pop, 3 
+
+Testing traversing "soft" song list:
+Solo, 0:4:18, Sin Bandera, pop, 3 
+
+
+at line #3: add Solo
+First title: Solo, 0:4:18, Sin Bandera, pop, 3
+Last title: Solo, 0:4:18, Sin Bandera, pop, 3
+
+
+Update at line #4: buy Solo
+"hard" number of unique songs (i.e. mSizeHard) = 1
+"soft" number of unique songs (i.e. mSize) = 1
+
+Testing traversing "hard" song list:
+Solo, 0:4:18, Sin Bandera, pop, 2 
+
+Testing traversing "soft" song list:
+Solo, 0:4:18, Sin Bandera, pop, 2 
+
+
+at line #4: buy Solo
+First title: Solo, 0:4:18, Sin Bandera, pop, 2
+Last title: Solo, 0:4:18, Sin Bandera, pop, 2
+
+Warning: Unable to fulfill request: at line #5: buy Luka 
+Warning: Item Luka is out of stock.
+
+at line #5: buy Luka
+First title: Solo, 0:4:18, Sin Bandera, pop, 2
+Last title: Solo, 0:4:18, Sin Bandera, pop, 2
+
+
+Update at line #6: add Solo
+"hard" number of unique songs (i.e. mSizeHard) = 1
+"soft" number of unique songs (i.e. mSize) = 1
+
+Testing traversing "hard" song list:
+Solo, 0:4:18, Sin Bandera, pop, 3 
+
+Testing traversing "soft" song list:
+Solo, 0:4:18, Sin Bandera, pop, 3 
+
+
+at line #6: add Solo
+First title: Solo, 0:4:18, Sin Bandera, pop, 3
+Last title: Solo, 0:4:18, Sin Bandera, pop, 3
+
+
+Update at line #7: add Oh What a Feeling
+"hard" number of unique songs (i.e. mSizeHard) = 2
+"soft" number of unique songs (i.e. mSize) = 2
+
+Testing traversing "hard" song list:
+Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock, 1 Solo, 0:4:18, Sin Bandera, pop, 3 
+
+Testing traversing "soft" song list:
+Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock, 1 Solo, 0:4:18, Sin Bandera, pop, 3 
+
+
+at line #7: add Oh What a Feeling
+First title: Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock, 1
+Last title: Solo, 0:4:18, Sin Bandera, pop, 3
+
+
+Update at line #8: add Solo
+"hard" number of unique songs (i.e. mSizeHard) = 2
+"soft" number of unique songs (i.e. mSize) = 2
+
+Testing traversing "hard" song list:
+Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock, 1 Solo, 0:4:18, Sin Bandera, pop, 4 
+
+Testing traversing "soft" song list:
+Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock, 1 Solo, 0:4:18, Sin Bandera, pop, 4 
+
+
+at line #8: add Solo
+First title: Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock, 1
+Last title: Solo, 0:4:18, Sin Bandera, pop, 4
+
+
+Update at line #9: buy Oh What a Feeling
+"hard" number of unique songs (i.e. mSizeHard) = 2
+"soft" number of unique songs (i.e. mSize) = 1
+
+Testing traversing "hard" song list:
+Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock, 0 Solo, 0:4:18, Sin Bandera, pop, 4 
+
+Testing traversing "soft" song list:
+Solo, 0:4:18, Sin Bandera, pop, 4 
+
+
+at line #9: buy Oh What a Feeling
+First title: Solo, 0:4:18, Sin Bandera, pop, 4
+Last title: Solo, 0:4:18, Sin Bandera, pop, 4
+
+
+
+
+Final state of tunes store:
+"hard" number of unique songs (i.e. mSizeHard) = 2
+"soft" number of unique songs (i.e. mSize) = 1
+
+Testing traversing "hard" song list:
+Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock, 0 Solo, 0:4:18, Sin Bandera, pop, 4 
+
+Testing traversing "soft" song list:
+Solo, 0:4:18, Sin Bandera, pop, 4 
+
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 161 ms : 996568 ns
+
+Done with FoothillTunesStore.

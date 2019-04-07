@@ -1,0 +1,17 @@
+{ "songs" : [
+    {
+        "genre": "classic pop and rock",
+        "artist_name": "Blue Oyster Cult",
+        "title": "Mes Dames Sarat",
+        "duration": "246.33424",
+        "song_id": "000001"
+    },
+    {
+        "genre": "classic pop and rock",
+        "artist_name": "Blue Oyster Cult",
+        "title": "Screams",
+        "duration": "189.80526",
+        "song_id": "000002"
+    }
+]
+}

@@ -1,0 +1,16 @@
+FEEDBACK:
+
+Excellent implementation of data structures utilizing object oriented 
+   design via StackList!
+
+
+Good stress testing of Navigator class.
+
+
+Nice user feedback when stack is empty :)
+
+
+Good documentation of your source code.
+
+-Bita.
+

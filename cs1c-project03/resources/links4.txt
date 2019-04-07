@@ -1,0 +1,5 @@
+link www.google.com
+link www.foothill.edu
+link www.psme.foothill.edu
+link news.google.com
+contains foothill.edu
